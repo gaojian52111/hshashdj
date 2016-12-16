@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'f5914Py9TpF/pSQgmCscTsg', 'P9CreateSettings');
+cc._RFpush(module, '9ac07phyx9JQrGcC/CJ663Q', 'P9CreateSettings');
 // scripts/P9/Data/P9CreateSettings.js
 
 

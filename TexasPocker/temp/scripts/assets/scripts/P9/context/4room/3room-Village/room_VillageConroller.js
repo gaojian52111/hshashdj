@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '16b2f7WLSxMC6LQJREHxGvC', 'room_VillageConroller');
+cc._RFpush(module, '8e4fafPypxHsrMhg1tdx6kg', 'room_VillageConroller');
 // scripts/P9/context/4room/3room-Village/room_VillageConroller.js
 
 var MVC = require("FWS_MVC");

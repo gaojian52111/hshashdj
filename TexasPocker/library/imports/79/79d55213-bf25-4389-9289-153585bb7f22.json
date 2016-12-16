@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "table_alertIcon_vip",
+    "texture": "abfe5db9-f6f8-4044-9d06-f5cc3755e1d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      72,
+      42
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      72,
+      42
+    ]
+  }
+}

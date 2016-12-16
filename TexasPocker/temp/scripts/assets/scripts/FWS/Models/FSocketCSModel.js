@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '74eb8wX0ldPO5GBa8l0B4Bi', 'FSocketCSModel');
+cc._RFpush(module, '5dc07bFP2pNBaUnlEw+GFMd', 'FSocketCSModel');
 // scripts/FWS/Models/FSocketCSModel.js
 
 /*

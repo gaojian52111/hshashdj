@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '97c78Pl8XRGgKJFylBfGBya', 'FLogInModel');
+cc._RFpush(module, '9e64btvJpxJ6az3V+5DLLHL', 'FLogInModel');
 // scripts/FWS/Models/FLogInModel.js
 
 var MVC = require("FWS_MVC");

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'f7cd5eW01tKaYQYjWlxJRky', 'FWS_MODEL');
+cc._RFpush(module, '78dadZ2zjVC9rccQ2/u58qZ', 'FWS_MODEL');
 // scripts/FWS/FWS_MODEL.js
 
 var FWS_MODEL = {};

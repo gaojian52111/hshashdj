@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'df999Tg6RlJDoNw0ZdCzdG3', 'shareLayerScript');
+cc._RFpush(module, '30dc9v80z1KMpT9M9dExFZI', 'shareLayerScript');
 // scripts/P9/Liujunhao/roomWaitting/shareLayerScript.js
 
 var MVC = require("FWS_MVC");

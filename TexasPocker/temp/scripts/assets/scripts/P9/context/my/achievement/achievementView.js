@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'da5bekghPRMhqDVOgZAgB6C', 'achievementView');
+cc._RFpush(module, '90c3aRGEP1IDKzkb6XHdPvn', 'achievementView');
 // scripts/P9/context/my/achievement/achievementView.js
 
 //所获成就

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '42603/k/bhE87spYREAAd41', 'SNGpartyScript');
+cc._RFpush(module, 'd7959nPz5pJK5+u8nE98GeS', 'SNGpartyScript');
 // scripts/P9/Maanna/SNGpartyScript.js
 
 var MVC = require("FWS_MVC");

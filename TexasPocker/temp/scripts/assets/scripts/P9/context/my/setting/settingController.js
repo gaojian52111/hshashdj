@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'aa7c5EwjcZISpAiFaH8JUw+', 'settingController');
+cc._RFpush(module, 'cef65770aZG+aM20d4lQUtn', 'settingController');
 // scripts/P9/context/my/setting/settingController.js
 
 //系统设置

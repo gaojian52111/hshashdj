@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'e2927jriIJEIZ/2TfICDTEY', 'loginScript');
+cc._RFpush(module, 'a3816cO6v1A4ZIFaqdBq5GS', 'loginScript');
 // scripts/P9/context/Login/loginScript.js
 
 //必须要加载这个模块

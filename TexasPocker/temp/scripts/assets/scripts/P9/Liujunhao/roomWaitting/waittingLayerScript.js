@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '90ff0dg29ZJ3bCKGPxRRwWn', 'waittingLayerScript');
+cc._RFpush(module, '3088aGCxn5Fjo0XW6ae9EDp', 'waittingLayerScript');
 // scripts/P9/Liujunhao/roomWaitting/waittingLayerScript.js
 
 //等待主页面prefab

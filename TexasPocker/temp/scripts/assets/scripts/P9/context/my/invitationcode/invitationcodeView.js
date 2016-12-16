@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'be954JxMzhBDJKXNtdZOYb3', 'invitationcodeView');
+cc._RFpush(module, 'bb25fXABupLIZdefXcLD1aW', 'invitationcodeView');
 // scripts/P9/context/my/invitationcode/invitationcodeView.js
 
 //邀请码

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'b22f89MRcBJg7wnKDSY+7iw', 'membershipScript');
+cc._RFpush(module, 'f43431F3cZGeJBU/WPgHdFi', 'membershipScript');
 // scripts/P9/context/my/membership/membershipScript.js
 
 //会籍

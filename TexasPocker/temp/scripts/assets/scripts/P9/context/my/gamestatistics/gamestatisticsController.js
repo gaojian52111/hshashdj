@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '88775e0HupNj6E5Vuj9x4Fs', 'gamestatisticsController');
+cc._RFpush(module, 'ecaecOwByFOCIaKRSZ94/il', 'gamestatisticsController');
 // scripts/P9/context/my/gamestatistics/gamestatisticsController.js
 
 //牌局统计

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '8f9b42nDXVMLqtHZWrcyCM1', 'editController');
+cc._RFpush(module, 'dafaemh4dxLtKYW0kDbzFwi', 'editController');
 // scripts/P9/context/my/edit/editController.js
 
 //编辑

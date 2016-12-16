@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '40dd8Ga2fRGEZHsOp6Tt9PE', 'masterlevelView');
+cc._RFpush(module, 'b0278R87UxEebgjtxhTnu4B', 'masterlevelView');
 // scripts/P9/context/my/masterlevel/masterlevelView.js
 
 //大师等级

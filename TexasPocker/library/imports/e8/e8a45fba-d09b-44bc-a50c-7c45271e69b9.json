@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "share_vipIcon_sng",
+    "texture": "e1585248-00d1-458f-b7af-75e1b9ceae10",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      312,
+      313
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      312,
+      314
+    ]
+  }
+}

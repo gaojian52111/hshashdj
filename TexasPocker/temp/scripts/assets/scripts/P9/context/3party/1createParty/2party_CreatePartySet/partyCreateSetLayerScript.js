@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '50aa252jyZAipogbfRnFHDG', 'partyCreateSetLayerScript');
+cc._RFpush(module, '314c30CWXpGOYHoSMywWUI+', 'partyCreateSetLayerScript');
 // scripts/P9/context/3party/1createParty/2party_CreatePartySet/partyCreateSetLayerScript.js
 
 var MVC = require("FWS_MVC");

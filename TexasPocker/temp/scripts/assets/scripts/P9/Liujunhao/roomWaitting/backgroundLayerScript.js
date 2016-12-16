@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'b37282ySC5Pn56DkFgenwDl', 'backgroundLayerScript');
+cc._RFpush(module, '48a35VioHtGV4pPkpa3HOeD', 'backgroundLayerScript');
 // scripts/P9/Liujunhao/roomWaitting/backgroundLayerScript.js
 
 cc.Class({

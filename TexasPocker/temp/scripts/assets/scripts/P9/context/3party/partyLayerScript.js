@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'd616fBOOY1IM6Mzlg1oHH6B', 'partyLayerScript');
+cc._RFpush(module, '4bc07vH1H1IY43jwIusAMin', 'partyLayerScript');
 // scripts/P9/context/3party/partyLayerScript.js
 
 var MVC = require("FWS_MVC");

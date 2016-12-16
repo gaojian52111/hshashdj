@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'e5be6+2Zg9Jhq8QHgv98zp3', 'SettlementController');
+cc._RFpush(module, 'ab36bOfxrpG8rhu7hUooni9', 'SettlementController');
 // scripts/P9/context/Settlement/SettlementController.js
 
 var MVC = require("FWS_MVC");

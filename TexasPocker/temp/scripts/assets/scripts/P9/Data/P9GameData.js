@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '5109fHWLFFHja5IXhdsEl1u', 'P9GameData');
+cc._RFpush(module, '7bf70R+9iVNFb5sPpJy6c3E', 'P9GameData');
 // scripts/P9/Data/P9GameData.js
 
 /*

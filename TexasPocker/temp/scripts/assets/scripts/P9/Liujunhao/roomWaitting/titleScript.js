@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '29808aNbX1EQqov5SSK8LmL', 'titleScript');
+cc._RFpush(module, 'e8b98cxWClC6pcpFueuAWFN', 'titleScript');
 // scripts/P9/Liujunhao/roomWaitting/titleScript.js
 
 //顶部prefab

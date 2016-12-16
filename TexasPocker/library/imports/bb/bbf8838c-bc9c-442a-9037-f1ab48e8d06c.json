@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "inviteShareBg",
+    "texture": "1ac6b3e4-3ca6-4dfa-94f4-c60774a4f09f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      375,
+      667
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      375,
+      667
+    ]
+  }
+}

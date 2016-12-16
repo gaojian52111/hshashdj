@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '3067atl+pVBf6DPtYzNZ5we', 'P9TestCreatorModel');
+cc._RFpush(module, '2131cQ0T01MbZHZBhaGJLs2', 'P9TestCreatorModel');
 // scripts/P9/Models/P9TestCreatorModel.js
 
 /*

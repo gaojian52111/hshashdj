@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '836d4U15GNGo66YnVNmuV6i', 'FSocketPack');
+cc._RFpush(module, '416afSfvdNFJprDcDBVoJGI', 'FSocketPack');
 // scripts/FWS/Utils/FSocketPack.js
 
 /*

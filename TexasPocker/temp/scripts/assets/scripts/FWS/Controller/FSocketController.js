@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'e4d6dFXC0hAcYLOV6u5eYjZ', 'FSocketController');
+cc._RFpush(module, '7ed33SZlXVPj6e7ROPDwOEZ', 'FSocketController');
 // scripts/FWS/Controller/FSocketController.js
 
 /*

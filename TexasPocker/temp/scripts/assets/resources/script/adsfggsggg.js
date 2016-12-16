@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '04818OvTdZGuIjxJxzmzXdq', 'adsfggsggg');
+cc._RFpush(module, '973e5C3o7lFvY9UKEmrWabt', 'adsfggsggg');
 // resources/script/adsfggsggg.js
 
 

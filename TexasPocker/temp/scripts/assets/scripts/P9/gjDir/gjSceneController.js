@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'c9984RnwyZDLI7TgVl/V9u6', 'gjSceneController');
+cc._RFpush(module, '178692NkIJHo5tCaBHPyDaw', 'gjSceneController');
 // scripts/P9/gjDir/gjSceneController.js
 
 var MVC = require("FWS_MVC");

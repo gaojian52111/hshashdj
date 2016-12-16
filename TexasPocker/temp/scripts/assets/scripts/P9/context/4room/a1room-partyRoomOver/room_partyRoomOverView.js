@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'def80cGkoFHeJkf76NxJ8r9', 'room_partyRoomOverView');
+cc._RFpush(module, 'eb0074S/phFxo+G6LUH7ZkK', 'room_partyRoomOverView');
 // scripts/P9/context/4room/a1room-partyRoomOver/room_partyRoomOverView.js
 
 var MVC = require("FWS_MVC");

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'f73beFCCJpMOoz4Ompgz+cr', 'StringUtils');
+cc._RFpush(module, '3b89cMyRwBLp5Es7DokaXCH', 'StringUtils');
 // scripts/FWS/Utils/StringUtils.js
 
 var StringUtils = cc.Class({

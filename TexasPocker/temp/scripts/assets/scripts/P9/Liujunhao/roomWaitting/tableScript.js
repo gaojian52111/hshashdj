@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '0e70fAtCR1GSrTzlEzCSRmP', 'tableScript');
+cc._RFpush(module, '9b60bOQx7FGfbNnuwJ/rZQI', 'tableScript');
 // scripts/P9/Liujunhao/roomWaitting/tableScript.js
 
 //牌桌prefab

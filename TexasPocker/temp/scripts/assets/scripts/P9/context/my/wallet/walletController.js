@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '0ab82HFLpJOKLu0a2a2RWNp', 'walletController');
+cc._RFpush(module, '4a0494T3ZZMRorlkWOoZkKG', 'walletController');
 // scripts/P9/context/my/wallet/walletController.js
 
 //钱包

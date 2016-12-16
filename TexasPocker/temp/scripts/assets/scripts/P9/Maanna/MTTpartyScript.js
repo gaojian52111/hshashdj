@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'ba344Pn4WJNXq+9DJERXxYe', 'MTTpartyScript');
+cc._RFpush(module, '60172jpMiFCTrhkjws5ff22', 'MTTpartyScript');
 // scripts/P9/Maanna/MTTpartyScript.js
 
 var MVC = require("FWS_MVC");

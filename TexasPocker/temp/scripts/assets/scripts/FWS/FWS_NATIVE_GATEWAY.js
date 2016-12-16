@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'df8d7UHzl9JtooMq7UR0hPm', 'FWS_NATIVE_GATEWAY');
+cc._RFpush(module, '842ceSalPNEkZlkMb3mTonh', 'FWS_NATIVE_GATEWAY');
 // scripts/FWS/FWS_NATIVE_GATEWAY.js
 
 /*

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "table_balloon_straddle",
+    "texture": "890aae51-13fc-48de-9636-4209da0f4b75",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      156,
+      63
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      156,
+      63
+    ]
+  }
+}

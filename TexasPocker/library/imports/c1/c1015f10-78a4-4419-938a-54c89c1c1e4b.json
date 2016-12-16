@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "share_Bg_vip",
+    "texture": "3ef8e1c8-70c0-49c6-a471-4a6bed6be62c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1005,
+      1566
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1005,
+      1566
+    ]
+  }
+}

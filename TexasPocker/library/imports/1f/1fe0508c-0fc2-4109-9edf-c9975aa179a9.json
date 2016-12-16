@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "creat_pic_loading",
+    "texture": "1c653205-b94a-425d-848b-ab388873e3e6",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      255,
+      244
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      257,
+      245
+    ]
+  }
+}

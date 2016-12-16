@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'be30amlP39IhrRWMEYP91ov', 'test');
+cc._RFpush(module, 'e734cyAQT1GobK6gzovtDpA', 'test');
 // scripts/FWS/test.js
 
 cc.Class({

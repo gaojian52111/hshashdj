@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'b1d27qa6w9M5bVeFSN4b5Js', 'SettlementScript');
+cc._RFpush(module, '4a9f7qcCjBBxqx30ixh1XIK', 'SettlementScript');
 // scripts/P9/context/Settlement/SettlementScript.js
 
 cc.Class({

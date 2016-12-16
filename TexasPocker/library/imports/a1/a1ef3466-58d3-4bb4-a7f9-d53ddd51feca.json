@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "creat_toolBar_menuBg",
+    "texture": "c4069aba-6c33-4468-9856-5f4c5241e4e4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      321,
+      252
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      321,
+      252
+    ]
+  }
+}

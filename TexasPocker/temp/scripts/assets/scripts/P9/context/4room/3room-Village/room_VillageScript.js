@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'ffe8ad6gqhMMogmzkHcBT09', 'room_VillageScript');
+cc._RFpush(module, 'f381d3eiZtJZJqGDSkBBKWp', 'room_VillageScript');
 // scripts/P9/context/4room/3room-Village/room_VillageScript.js
 
 cc.Class({

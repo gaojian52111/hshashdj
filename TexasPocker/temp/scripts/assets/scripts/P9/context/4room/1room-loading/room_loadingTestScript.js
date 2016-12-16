@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '8b4401ZRv1FoJBmsnaWBTBP', 'room_loadingTestScript');
+cc._RFpush(module, '6882biD2bZHS4Waa8QxguQV', 'room_loadingTestScript');
 // scripts/P9/context/4room/1room-loading/room_loadingTestScript.js
 
 var MVC = require("FWS_MVC");

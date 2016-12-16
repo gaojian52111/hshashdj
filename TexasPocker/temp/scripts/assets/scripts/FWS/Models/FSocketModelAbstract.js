@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '7f7ddr1O2BCTp/i5gNgVpYF', 'FSocketModelAbstract');
+cc._RFpush(module, 'e8addaFdgFOi4zY84vnnlRY', 'FSocketModelAbstract');
 // scripts/FWS/Models/FSocketModelAbstract.js
 
 var MVC = require("FWS_MVC");

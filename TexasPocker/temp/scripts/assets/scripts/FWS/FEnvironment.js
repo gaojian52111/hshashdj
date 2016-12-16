@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '2cf266tquRFf7SS29yUSWSf', 'FEnvironment');
+cc._RFpush(module, 'da496ChT3pAoJcWLmYj8oBe', 'FEnvironment');
 // scripts/FWS/FEnvironment.js
 
 /*

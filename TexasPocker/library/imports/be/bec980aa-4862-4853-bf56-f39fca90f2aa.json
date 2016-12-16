@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "creat_sliderBtn_grayKnob",
+    "texture": "fd3ef716-9b73-40ce-b763-37a5887bacea",
+    "atlas": "",
+    "rect": [
+      30,
+      30,
+      60,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      120
+    ]
+  }
+}

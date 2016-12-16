@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '22617cn2y9LN7b5vUhLHOOz', 'mallScript');
+cc._RFpush(module, 'cf707I7841IpYylgpKXOOaQ', 'mallScript');
 // scripts/P9/context/my/mall/mallScript.js
 
 //商城

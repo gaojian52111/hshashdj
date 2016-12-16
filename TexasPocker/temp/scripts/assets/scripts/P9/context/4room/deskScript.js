@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'c0adfsgrohKTq0BFydiQAGb', 'deskScript');
+cc._RFpush(module, '997f9xgZxBEAJ/qf2q9m2dh', 'deskScript');
 // scripts/P9/context/4room/deskScript.js
 
 var MVC = require("FWS_MVC");

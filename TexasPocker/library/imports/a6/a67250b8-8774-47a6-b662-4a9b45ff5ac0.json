@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "table_btnBg_onSwitch",
+    "texture": "6ad0a439-73ba-4b70-b2b4-d0788af563ce",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      132,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      132,
+      72
+    ]
+  }
+}

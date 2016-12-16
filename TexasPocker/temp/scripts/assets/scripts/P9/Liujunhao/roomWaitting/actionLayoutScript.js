@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '999b4KzHVpECola0SZ/Ucxq', 'actionLayoutScript');
+cc._RFpush(module, '23cab1J7zJF8Lu35XKQ2tj0', 'actionLayoutScript');
 // scripts/P9/Liujunhao/roomWaitting/actionLayoutScript.js
 
 //玩家操作prefab

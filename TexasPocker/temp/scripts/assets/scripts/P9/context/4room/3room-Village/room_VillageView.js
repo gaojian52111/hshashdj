@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'eb737o0AJVEv4UyTYwGAqo5', 'room_VillageView');
+cc._RFpush(module, '1a960BYeaxIl5q6KzdCO/Ck', 'room_VillageView');
 // scripts/P9/context/4room/3room-Village/room_VillageView.js
 
 var MVC = require("FWS_MVC");

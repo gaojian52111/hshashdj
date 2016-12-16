@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'b763fv75yFHS7XLcU6iAr+x', 'AvatarFactory');
+cc._RFpush(module, 'c76fbt23KRBab/eaJ7xGB5f', 'AvatarFactory');
 // scripts/P9/context/AvatarSystem/AvatarFactory.js
 
 var MVC = require("FWS_MVC");

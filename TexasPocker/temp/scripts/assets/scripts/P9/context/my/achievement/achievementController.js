@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '79d7dYiYLhANYVhaKqdXkJZ', 'achievementController');
+cc._RFpush(module, '3d1e9Uc211P+b7JurvKJ1UF', 'achievementController');
 // scripts/P9/context/my/achievement/achievementController.js
 
 //所获成就

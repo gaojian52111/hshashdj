@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '57ec4IV+ARC37OHDLqpDcUD', 'MTTSNGWaitingScript');
+cc._RFpush(module, '1d5bdR7My9ATKv/UWdg6W0l', 'MTTSNGWaitingScript');
 // scripts/P9/context/MTTSNGloading/MTTSNGWaitingScript.js
 
 var MVC = require("FWS_MVC");

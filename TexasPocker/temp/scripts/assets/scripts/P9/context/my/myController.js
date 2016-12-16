@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'd6d838bscdFwKaVI8B/Cy0H', 'myController');
+cc._RFpush(module, 'c98c3sOyoBLPpd9cblp2Ns1', 'myController');
 // scripts/P9/context/my/myController.js
 
 var MVC = require("FWS_MVC");

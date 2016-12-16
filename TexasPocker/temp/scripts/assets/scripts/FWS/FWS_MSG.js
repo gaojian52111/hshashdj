@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '2967eBDa49G5LRIXG2CJUCW', 'FWS_MSG');
+cc._RFpush(module, '044da1e/+pP6a/GPesiUe26', 'FWS_MSG');
 // scripts/FWS/FWS_MSG.js
 
 var FWS_MSG = {};

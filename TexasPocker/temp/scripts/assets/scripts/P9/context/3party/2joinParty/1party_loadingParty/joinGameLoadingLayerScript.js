@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'e3a89wIs6VLILsORDPv2xTb', 'joinGameLoadingLayerScript');
+cc._RFpush(module, 'fcf2b2wtSJJZJegJdx25LZt', 'joinGameLoadingLayerScript');
 // scripts/P9/context/3party/2joinParty/1party_loadingParty/joinGameLoadingLayerScript.js
 
 var MVC = require("FWS_MVC");

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '4c75e0+lTlKQr/6wkIh0W/G', 'roomScript');
+cc._RFpush(module, 'a3263fSnBpP06RgC/m4UxiW', 'roomScript');
 // scripts/P9/context/4room/roomScript.js
 
 var MVC = require("FWS_MVC");

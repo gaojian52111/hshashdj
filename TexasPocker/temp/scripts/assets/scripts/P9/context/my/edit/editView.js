@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '3fd74lpqOJBBZ/MRweBy4pi', 'editView');
+cc._RFpush(module, 'be5adKUF9lPIZXtYLRdEOws', 'editView');
 // scripts/P9/context/my/edit/editView.js
 
 //编辑

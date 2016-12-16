@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '8178cMosBFIq4ipREh0EikA', 'contactsView');
+cc._RFpush(module, 'a11c2nd9LBCLoZZweOF1Fmg', 'contactsView');
 // scripts/P9/context/my/contacts/contactsView.js
 
 //联系人

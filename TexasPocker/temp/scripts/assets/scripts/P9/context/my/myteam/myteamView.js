@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '2d640nE4jpOsbLpYl8cZkxV', 'myteamView');
+cc._RFpush(module, 'c22d926aq9CypQz972c4FiV', 'myteamView');
 // scripts/P9/context/my/myteam/myteamView.js
 
 //我的战队

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '528e91aDCFH0rVBMpy8yXMi', 'room_handSignController');
+cc._RFpush(module, 'b9f378Aql5OwYNujtk2cGW4', 'room_handSignController');
 // scripts/P9/context/4room/4room-handSign/room_handSignController.js
 
 var MVC = require("FWS_MVC");

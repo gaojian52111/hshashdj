@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '8e7f8ww/UtB7IIvCE4QMJlB', 'NewScript');
+cc._RFpush(module, '42dd4DmuqVJgJjZRRRXOKmW', 'NewScript');
 // scripts/P9/gjComment/NewScript.js
 
 cc.Class({

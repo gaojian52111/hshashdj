@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '3b895RM9N5POZV8Hark42HG', 'PartyView');
+cc._RFpush(module, '2d84bcb6Q1GUoaFP/tnnMmZ', 'PartyView');
 // scripts/P9/context/3party/PartyView.js
 
 var MVC = require("FWS_MVC");

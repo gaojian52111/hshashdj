@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '4fb36kecjRBXrWSs7ln5S05', 'Room_roomWaitingScript');
+cc._RFpush(module, 'ac8bbehGiFBQp10dWO5+xHC', 'Room_roomWaitingScript');
 // scripts/P9/context/4room/a2room-roomWaiting/Room_roomWaitingScript.js
 
 //等待牌局界面，牌桌动画以及牌桌初始化

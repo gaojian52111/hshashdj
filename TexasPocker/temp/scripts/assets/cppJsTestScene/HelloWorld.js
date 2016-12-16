@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'fa5efIIqXpEa4NJXvEDbBFD', 'HelloWorld');
+cc._RFpush(module, '19479kgQMhJcr+P4+eozGvg', 'HelloWorld');
 // cppJsTestScene/HelloWorld.js
 
 cc.Class({

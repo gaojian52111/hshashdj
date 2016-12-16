@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '05986U9/gJLuojTId6uZEtB', 'LoginView');
+cc._RFpush(module, '0bde787e7dOwJbfinDAgdPA', 'LoginView');
 // scripts/P9/context/1Login/LoginView.js
 
 var MVC = require("FWS_MVC");

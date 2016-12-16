@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '9680e602PVPsLzaq7aVBlje', 'mallController');
+cc._RFpush(module, 'd048fHW7/tCFqA9xgTeKdZ8', 'mallController');
 // scripts/P9/context/my/mall/mallController.js
 
 //商城

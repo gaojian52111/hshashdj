@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '54a05qGQfFAD6yGt2ZmiIVC', 'FWS_MVC');
+cc._RFpush(module, 'aabeb8ygKFBBK/tP1mS9GqQ', 'FWS_MVC');
 // scripts/FWS/FWS_MVC.js
 
 /*

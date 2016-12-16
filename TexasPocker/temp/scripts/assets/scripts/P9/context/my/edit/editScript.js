@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '14249j6sK1ARLF1GLbnqyUz', 'editScript');
+cc._RFpush(module, '11da0mVRZRIH5Q06Kp1K0V5', 'editScript');
 // scripts/P9/context/my/edit/editScript.js
 
 //编辑

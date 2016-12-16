@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '93646eHrhRBz5ZLJJFkxXT4', 'testLayerScript');
+cc._RFpush(module, '31750nz4T9OcJUCPQs/YOdu', 'testLayerScript');
 // scripts/P9/context/4room/testLayerScript.js
 
 var MVC = require("FWS_MVC");

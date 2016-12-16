@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '6c9440rH9ZNcqfcZ/Hn3mQR', 'prefabBodyScript');
+cc._RFpush(module, 'ebf6e0X0B9LI7CBL3xRRaBu', 'prefabBodyScript');
 // scripts/P9/SangHongLuDir/prefabBodyScript.js
 
 

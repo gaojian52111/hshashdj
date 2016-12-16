@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'c71c4KD29hGt7rYf8H0wwUm', 'SettlementView');
+cc._RFpush(module, '7712dI34YlK26ekiwHnjZ2O', 'SettlementView');
 // scripts/P9/context/Settlement/SettlementView.js
 
 var MVC = require("FWS_MVC");

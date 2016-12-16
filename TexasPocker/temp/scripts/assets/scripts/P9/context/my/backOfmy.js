@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'dafc5SZw75HsLUVQmKBWY6F', 'backOfmy');
+cc._RFpush(module, 'd60baOZc71Bwado+c8FEwdm', 'backOfmy');
 // scripts/P9/context/my/backOfmy.js
 
 var MVC = require("FWS_MVC");

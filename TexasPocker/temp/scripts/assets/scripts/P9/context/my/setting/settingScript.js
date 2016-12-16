@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '501ffI4NORBmJM44gmtvF8w', 'settingScript');
+cc._RFpush(module, 'ec037Hp6cRD6IaN+LELgXkv', 'settingScript');
 // scripts/P9/context/my/setting/settingScript.js
 
 //系统设置

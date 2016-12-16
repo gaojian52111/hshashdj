@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "table_dataIcon_bigFish",
+    "texture": "0711fa01-6c72-4f85-a4fb-0e76a1050802",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      120,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      54
+    ]
+  }
+}

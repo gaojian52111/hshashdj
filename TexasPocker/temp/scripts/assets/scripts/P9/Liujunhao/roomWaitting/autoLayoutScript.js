@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '7e3b37COrFLZZGaFHA8O6eH', 'autoLayoutScript');
+cc._RFpush(module, 'b3c16hNH3dMPJG6KKK0J/o+', 'autoLayoutScript');
 // scripts/P9/Liujunhao/roomWaitting/autoLayoutScript.js
 
 //自动操作prefab

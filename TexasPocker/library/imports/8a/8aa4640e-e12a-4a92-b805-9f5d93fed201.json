@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "creat_pic_blankSpace_sides",
+    "texture": "f64e5a2d-1c8a-407e-94c3-20a1a9995997",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      864,
+      1152
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      864,
+      1152
+    ]
+  }
+}

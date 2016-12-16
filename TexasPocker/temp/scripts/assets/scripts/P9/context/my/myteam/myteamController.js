@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'c6e0cB0WH5MKIzflihpJvFE', 'myteamController');
+cc._RFpush(module, '8b824r4F8JPeqK+3qdV1/P/', 'myteamController');
 // scripts/P9/context/my/myteam/myteamController.js
 
 //我的战队

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'dd485+PZUBOXIDuYFYG9sSR', 'setscoreLayerScript');
+cc._RFpush(module, 'd21697omUpOBbGTlXcKaSxl', 'setscoreLayerScript');
 // scripts/P9/Liujunhao/roomWaitting/setscoreLayerScript.js
 
 var MVC = require("FWS_MVC");

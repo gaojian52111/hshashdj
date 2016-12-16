@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'dc488GWMnBM3pnGC53jsV9B', 'roomController');
+cc._RFpush(module, 'cf26bEhWltEsp58nCJHqCLE', 'roomController');
 // scripts/P9/context/4room/roomController.js
 
 var MVC = require("FWS_MVC");

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '0f036k96KRF74iGutVDBA7m', 'Project');
+cc._RFpush(module, '67e19BL6pxHMJR8J/JC09jN', 'Project');
 // scripts/Project.js
 
 /*

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'e50ceKCz+JD+7l0PsrcB/Fl', 'P9SocketGSModel');
+cc._RFpush(module, '8fa0c4/k1VLCKJkjXFIpMoY', 'P9SocketGSModel');
 // scripts/P9/Models/P9SocketGSModel.js
 
 /*

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '69f76ArNzlNmoHJUaB1wuxZ', 'membershipController');
+cc._RFpush(module, 'da4bbK7srdFhKOJsLJhN1JL', 'membershipController');
 // scripts/P9/context/my/membership/membershipController.js
 
 //会籍

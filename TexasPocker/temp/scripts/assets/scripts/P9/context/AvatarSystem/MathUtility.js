@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '4fe8buzw8VHFJXaSB4W//bk', 'MathUtility');
+cc._RFpush(module, '38d661uH55ATbfzcS1HYqPG', 'MathUtility');
 // scripts/P9/context/AvatarSystem/MathUtility.js
 
 var MathUtility;

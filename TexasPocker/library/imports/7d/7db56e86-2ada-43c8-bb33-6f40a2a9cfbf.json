@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "table_sliderBg_value",
+    "texture": "21b6ff23-c71f-4f93-a944-689b9f89f57f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      750,
+      9
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      750,
+      9
+    ]
+  }
+}

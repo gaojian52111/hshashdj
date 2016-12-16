@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '6740b7tuMpJe73O9ttD0ihv', 'FSocketDistributer');
+cc._RFpush(module, '89c7dRgxhtDE47gOucAb9RA', 'FSocketDistributer');
 // scripts/FWS/Models/FSocketDistributer.js
 
 /*

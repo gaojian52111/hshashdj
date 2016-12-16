@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '67d1fUm0FVMOoFZkDD3JJGC', 'ruleView');
+cc._RFpush(module, 'f7cdbM40G9KQZcb1R9JahQ1', 'ruleView');
 // scripts/P9/context/my/rule/ruleView.js
 
 //规则说明

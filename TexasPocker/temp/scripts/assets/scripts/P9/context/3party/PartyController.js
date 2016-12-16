@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '7e4d2eFaw1Pha2ZUWLt8tS/', 'PartyController');
+cc._RFpush(module, '5ef33NAo+tKp5MlLW/we8cs', 'PartyController');
 // scripts/P9/context/3party/PartyController.js
 
 var MVC = require("FWS_MVC");

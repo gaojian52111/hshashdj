@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '713a4vpI1tKwIgX1FAWmOfa', 'room_othersTurnView');
+cc._RFpush(module, 'cd162qUca5It63+aJKWC9JC', 'room_othersTurnView');
 // scripts/P9/context/4room/7room-othersTurn/room_othersTurnView.js
 
 var MVC = require("FWS_MVC");

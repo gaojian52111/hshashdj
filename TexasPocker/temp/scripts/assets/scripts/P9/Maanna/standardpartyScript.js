@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'de1f3kdQBJGZaduZf2oucoS', 'standardpartyScript');
+cc._RFpush(module, '51556cIfw9Dq72KPbPfug4y', 'standardpartyScript');
 // scripts/P9/Maanna/standardpartyScript.js
 
 /*

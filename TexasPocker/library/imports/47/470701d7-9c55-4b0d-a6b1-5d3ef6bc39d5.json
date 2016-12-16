@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "table_menuBtn_nav",
+    "texture": "8924a9cc-54a0-4c15-b228-70021e4585bc",
+    "atlas": "",
+    "rect": [
+      0,
+      12,
+      72,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      72,
+      72
+    ]
+  }
+}

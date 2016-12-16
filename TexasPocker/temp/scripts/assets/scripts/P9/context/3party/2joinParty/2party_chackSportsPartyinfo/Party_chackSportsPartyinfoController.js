@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '3fe22cof15KC57YazgIrSQx', 'Party_chackSportsPartyinfoController');
+cc._RFpush(module, 'a6602IxYGlJs49RrlV+2WX+', 'Party_chackSportsPartyinfoController');
 // scripts/P9/context/3party/2joinParty/2party_chackSportsPartyinfo/Party_chackSportsPartyinfoController.js
 
 var MVC = require("FWS_MVC");

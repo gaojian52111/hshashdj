@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '4eb65oAfVtCk5yZuCH0v/6E', 'messageController');
+cc._RFpush(module, '5864e8GEoVHjpiYNxtYX+aE', 'messageController');
 // scripts/P9/context/my/message/messageController.js
 
 //消息

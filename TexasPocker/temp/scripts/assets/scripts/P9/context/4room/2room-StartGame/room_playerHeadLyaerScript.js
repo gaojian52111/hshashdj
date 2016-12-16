@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '05110e7SutKxrcrzkiRA476', 'room_playerHeadLyaerScript');
+cc._RFpush(module, '8a6aaf5T15MbaxVJRisQeRa', 'room_playerHeadLyaerScript');
 // scripts/P9/context/4room/2room-StartGame/room_playerHeadLyaerScript.js
 
 var MVC = require("FWS_MVC");

@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'c0394dZ7DlEELy47TlcvmPh', 'room_safestController');
+cc._RFpush(module, 'd889dJ8aPBA3ZUDgGUEYKge', 'room_safestController');
 // scripts/P9/context/4room/8room-safest/room_safestController.js
 
 var MVC = require("FWS_MVC");

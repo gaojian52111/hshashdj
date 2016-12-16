@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '86628hf+L9PdpmtrA/eiTxG', 'room_communityCardView');
+cc._RFpush(module, 'bb5e3+pSrVDWbjvPmnAHZNK', 'room_communityCardView');
 // scripts/P9/context/4room/5room-communityCard/room_communityCardView.js
 
 var MVC = require("FWS_MVC");

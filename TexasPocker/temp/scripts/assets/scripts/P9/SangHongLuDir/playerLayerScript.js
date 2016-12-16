@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '35a31x64JhH9KMaFjjm3JTh', 'playerLayerScript');
+cc._RFpush(module, 'f1f48LPemhJOpkmNl75hxSL', 'playerLayerScript');
 // scripts/P9/SangHongLuDir/playerLayerScript.js
 
 var MVC = require("FWS_MVC");

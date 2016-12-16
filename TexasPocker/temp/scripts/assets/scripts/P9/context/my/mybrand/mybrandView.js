@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '86330iQGO1A7p1ejUkrN5jx', 'mybrandView');
+cc._RFpush(module, '844a3xr9bFKSabp0twiC7XL', 'mybrandView');
 // scripts/P9/context/my/mybrand/mybrandView.js
 
 //我的牌谱

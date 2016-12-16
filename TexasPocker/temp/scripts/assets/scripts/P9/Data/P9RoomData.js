@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '47557TBeV9OBL8QaY8GaWTl', 'P9RoomData');
+cc._RFpush(module, '9b76bomBpVOr5zY2+5+Z3G2', 'P9RoomData');
 // scripts/P9/Data/P9RoomData.js
 
 /*

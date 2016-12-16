@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Custom35",
+    "texture": "f7f89851-c6cd-4ec4-b89d-d18b68f468c5",
+    "atlas": "",
+    "rect": [
+      12,
+      2,
+      48,
+      70
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      72,
+      72
+    ]
+  }
+}

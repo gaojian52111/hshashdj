@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, '48694Z+gTJE+44/7xM7+TPq', 'FWebConnectController');
+cc._RFpush(module, 'c3e79NnomlDe53TcO0qL0US', 'FWebConnectController');
 // scripts/FWS/Controller/FWebConnectController.js
 
 var FWS_MVC = require("FWS_MVC");

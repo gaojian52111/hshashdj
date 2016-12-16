@@ -1,5 +1,5 @@
 "use strict";
-cc._RFpush(module, 'f9edcnkxL9CVokpH+Cg2ZyG', 'FLanguage');
+cc._RFpush(module, '3eea4HIuQVE1r1HASmnj4iD', 'FLanguage');
 // scripts/FWS/Utils/FLanguage.js
 
 /*
