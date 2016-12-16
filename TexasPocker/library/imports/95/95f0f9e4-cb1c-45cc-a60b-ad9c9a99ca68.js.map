@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,iBAAiB,CAAC;AACtB,iBAAiB,GAAG,EAAE,CAAC,KAAK,CAAC;AACzB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;AAKD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC;KACzC;;AAED,eAAW,EAAE,uBAAW,EAEvB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,iBAAiB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar LoadingController;\nLoadingController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:此类是对将来可能加进来的其他创建方法存在的\n    //TODO:这期间加载最新客户端版本号  最忌支持的客户端版本号 其他参数 判定本地是否有登陆信息\n    //TODO:等待服务器消息 是进入主页面 还是断线续玩\n    onEnterNode: function() {\n\n        cc.log(\"party_CreatePartyController\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n\n});\nmodule.exports = LoadingController;\n"
+  ]
+}

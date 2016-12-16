@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;AAEA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE,EAEX;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,IAAI,CAAC,cAAc,CAAC,EAAE,CAAC,QAAQ,CAAC,cAAc,EAAE,CAAC,CAAC;KAE1D;;CAEJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "\n\ncc.Class({\n    extends: cc.Component,\n\n    properties: {\n\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        this.node.setContentSize(cc.director.getVisibleSize());\n        \n    },\n\n});\n"
+  ]
+}

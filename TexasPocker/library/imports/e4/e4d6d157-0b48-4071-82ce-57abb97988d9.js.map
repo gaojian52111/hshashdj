@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;;;;;AAMA,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACnC,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACnC,IAAM,kBAAkB,GAAG,OAAO,CAAC,oBAAoB,CAAC,CAAC;;;;AAIzD,IAAM,iBAAiB,GAAG,EAAE,CAAC,KAAK,CAAC;;AAE/B,eAAS,OAAO,CAAC,kBAAkB;;;AAGnC,4BAAwB,EAAE,kCAAS,GAAG,EAAE;AACpC,WAAG,CAAC,QAAQ,EAAE,CAAC;;;KAGlB;;AAED,0BAAsB,EAAE,gCAAS,GAAG,EAAE;AAClC,WAAG,CAAC,QAAQ,EAAE,CAAC;;;KAGlB;;AAED,yBAAqB,EAAE,+BAAS,GAAG,EAAE;AACjC,WAAG,CAAC,QAAQ,EAAE,CAAC;;;KAGlB;CACJ,CAAC,CAAC;;;;;;;;;;;;;;AAiBH,MAAM,CAAC,OAAO,GAAG,iBAAiB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "/*\n * @Author: thor.liu \n * @Date: 2016-12-05 17:13:49 \n * @Last Modified by: thor.liu\n * @Last Modified time: 2016-12-06 17:02:29\n */\nconst FWS_MSG = require(\"FWS_MSG\");\nconst FWS_MVC = require(\"FWS_MVC\");\nconst FWS_NATIVE_GATEWAY = require(\"FWS_NATIVE_GATEWAY\");\n\n//FWS_NATIVE_GATEWAY.FNativeGateway\n\nconst FSocketController = cc.Class({\n    // name: \"FSocketController\",\n    extends: FWS_MVC.FMessageConnection,\n    // ctor: function() {}, \n\n    onFMessage_socketConnect: function(msg) {\n        msg.complete();\n\n        //TODO: 调用jsToCpp接口, 发起连接\n    },\n\n    onFMessage_socketClose: function(msg) {\n        msg.complete();\n\n        //TODO: 调用jsToCpp接口, 关闭连接\n    },\n\n    onFMessage_socketSend: function(msg) {\n        msg.complete();\n\n        //TODO: 调用jsToCpp接口, 发送数据\n    }\n});\n\n\n\n/*\n    [header]\n    msgid\n\n    [head]\n    version\n    retcode\n    extra\n    router\n    body\n*/\n\n\nmodule.exports = FSocketController;"
+  ]
+}

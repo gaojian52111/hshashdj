@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,4BAA4B,CAAC;AACjC,4BAA4B,GAAG,EAAE,CAAC,KAAK,CAAC;AACpC,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,GAAG,CAAC,kBAAkB,CAAC,CAAC;KAC9B;;AAED,eAAW,EAAE,uBAAW,EAEvB;AACD,+BAA2B,EAAC,qCAAU,GAAG,EAAE;;;AAGvC,YAAG,GAAG,CAAC,IAAI,CAAC,IAAI,IAAI,KAAK,EAAC;AACtB,cAAE,CAAC,GAAG,CAAC,mCAAmC,CAAC,CAAC;AAC5C,eAAG,CAAC,eAAe,CAAC,MAAM,CAAC,aAAa,CAAC,CAAC;SAC7C,MACI,IAAG,GAAG,CAAC,IAAI,CAAC,IAAI,IAAI,KAAK,EAAC;AAC3B,cAAE,CAAC,GAAG,CAAC,mCAAmC,CAAC,CAAC;;AAE5C,eAAG,CAAC,eAAe,CAAC,MAAM,CAAC,sBAAsB,CAAC,CAAC;SACtD;AACD,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;CACJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,4BAA4B,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar party_loadingPartyController;\nparty_loadingPartyController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n\n        cc.log(\"roomLoadingScene\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    },\n    onFMessage_joinPartyInfoReq:function (msg) {\n        //\n\n        if(msg.args.type == \"STD\"){\n            cc.log(\"onFMessage_showPartyTypeReq = STD\");\n            MVC.FContextManager.gotoID(\"roomWaiting\");\n        }\n        else if(msg.args.type == \"MTT\"){\n            cc.log(\"onFMessage_showPartyTypeReq = MTT\");\n\n            MVC.FContextManager.gotoID(\"chackSportsPartyinfo\");\n        }\n        msg.complete();\n    }\n});\nmodule.exports = party_loadingPartyController;\n"
+  ]
+}

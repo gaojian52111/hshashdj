@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;;AAER,kBAAU,EAAC;AACP,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,MAAM;SACjB;;AAED,mBAAW,EAAC;AACR,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,MAAM;SACjB;;AAED,kBAAU,EAAC;AACP,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,MAAM;SACjB;;AAED,oBAAY,EAAC;AACT,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,MAAM;SACjB;;AAED,oBAAY,EAAC;AACT,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,MAAM;SACjB;KACJ;;;AAGD,UAAM,EAAE,kBAAY,EAEnB;;AAED,mBAAe,EAAC,2BAAU;AACtB,UAAE,CAAC,GAAG,CAAC,iBAAiB,CAAC,CAAC;KAC7B;AACD,oBAAgB,EAAC,4BAAU;AACvB,UAAE,CAAC,GAAG,CAAC,kBAAkB,CAAC,CAAC;KAC9B;AACD,mBAAe,EAAC,2BAAU;AACtB,UAAE,CAAC,GAAG,CAAC,iBAAiB,CAAC,CAAC;KAC7B;AACD,qBAAiB,EAAC,6BAAU;AACxB,UAAE,CAAC,GAAG,CAAC,mBAAmB,CAAC,CAAC;KAC/B;AACD,qBAAiB,EAAC,6BAAU;AACxB,UAAE,CAAC,GAAG,CAAC,mBAAmB,CAAC,CAAC;KAC/B;CAKJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: { \n        //牌局统计按钮 \n        leftButton:{\n            default:null,\n            type:cc.Button\n        },\n        //我的统计按钮 \n        rightButton:{\n            default:null,\n            type:cc.Button\n        },\n        //推出的X按钮 \n        exitButton:{\n            default:null,\n            type:cc.Button\n        },\n        //分享按钮左 \n        shareButton1:{\n            default:null,\n            type:cc.Button\n        },\n        //分享按钮右 \n        shareButton2:{\n            default:null,\n            type:cc.Button\n        }\n    },\n\n    // use this for initialization\n    onLoad: function () {\n\n    },\n\n    clickleftButton:function(){\n        cc.log(\"clickleftButton\");\n    },\n    clickrightButton:function(){\n        cc.log(\"clickrightButton\");\n    },\n    clickexitButton:function(){\n        cc.log(\"clickexitButton\");\n    },\n    clickshareButton1:function(){\n        cc.log(\"clickshareButton1\");\n    },\n    clickshareButton2:function(){\n        cc.log(\"clickshareButton2\");\n    },\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

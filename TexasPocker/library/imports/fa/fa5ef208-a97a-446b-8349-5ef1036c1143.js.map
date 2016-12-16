@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,aAAK,EAAE;AACH,uBAAS,IAAI;AACb,gBAAI,EAAE,EAAE,CAAC,KAAK;SACjB;;AAED,YAAI,EAAE,eAAe;KACxB;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,KAAK,CAAC,MAAM,GAAG,IAAI,CAAC,IAAI,CAAC;;AAE9B,cAAM,CAAC,UAAU,GAAG,IAAI,CAAC;KAE5B;AACD,mBAAe,EAAC,2BAAU,EAEzB;AACD,mBAAe,EAAC,2BAAU;;;;;;;;;;;;AAYtB,YAAI,CAAC,KAAK,CAAC,MAAM,GAAG,OAAO,CAAC;;AAG5B,YAAI,GAAG,GAAI;AACP,gBAAI,EAAC,OAAO;SACf,CAAC;AACF,oBAAY,CAAC,OAAO,CAAC,MAAM,CAAC,CAAC;;AAG7B,oBAAY,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC;KAG7B;AACD,mBAAe,EAAC,2BAAU,EAEzB;AACD,WAAO,EAAC,iBAAS,GAAG,EAAC;AACjB,YAAI,CAAC,KAAK,CAAC,MAAM,GAAG,GAAG,CAAC;KAE3B;;;AAGD,UAAM,EAAE,gBAAU,EAAE,EAAE,EAErB;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        label: {\n            default: null,\n            type: cc.Label\n        },\n        // defaults, set visually when attaching this script to the Canvas\n        text: 'Hello, World!'\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        this.label.string = this.text;\n\n        window.HelloWorld = this;\n\n    },\n    clickForCppToJs:function(){\n\n    },   \n    clickForSendMsg:function(){\n\n        // var msg = new MVC.FMessage(\"SendWebMSG\",\"root\");\n        // msg.args.msgType = \"login\";\n        // msg.args.appid = \"appid\";\n        // msg.args.time = \"time\";\n        // msg.args.mobile = \"mobile\";\n        // msg.args.type = \"type\";\n        // msg.args.sms = \"sms\";\n        // msg.args.password = \"password\";\n\n        // msg.send();\n        this.label.string = \"sssss\";\n\n\n        var msg  = {\n            name:\"meinv\"\n        };\n        jsCppConnect.testlog(\"aaa5\");\n\n\n        jsCppConnect.jsToCpp(msg);\n\n\n    },    \n    clickForConnect:function(){\n\n    },\n    cppTOjs:function(msg){\n        this.label.string = msg;\n\n    },\n\n    // called every frame\n    update: function (dt) {\n\n    },\n});\n"
+  ]
+}

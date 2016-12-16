@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,eAAe,CAAC;AACpB,eAAe,GAAG,EAAE,CAAC,KAAK,CAAC;AACvB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAY;AACrB,UAAE,CAAC,GAAG,CAAC,iCAAiC,CAAC,CAAC;KAE7C;;AAED,eAAW,EAAE,uBAAY,EAExB;;AAED,+BAA2B,EAAE,qCAAU,GAAG,EAAE;;;;;;AAMxC,WAAG,CAAC,eAAe,CAAC,MAAM,CAAC,cAAc,CAAC,CAAC;AAC3C,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;;AAED,gCAA4B,EAAE,sCAAU,GAAG,EAAE;;AAEzC,UAAE,CAAC,GAAG,CAAC,uDAAuD,CAAC,CAAC;;AAEhE,WAAG,CAAC,eAAe,CAAC,MAAM,CAAC,gBAAgB,CAAC,CAAC;AAC7C,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;CACJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,eAAe,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar PartyController;\nPartyController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function () {\n        cc.log(\"PartyController --- onEnterNode\");\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function () {\n\n    },\n    //加入牌局\n    onFMessage_onJoinPartyClick: function (msg) {\n        //判断数字输入的位数是否正确\n\n        //如果不正确发 位数不正确消息\n\n        //如果正确goto joinParty\n        MVC.FContextManager.gotoID(\"loadingParty\");\n        msg.complete();\n    },\n    //创建牌局\n    onFMessage_onCreatPartyClick: function (msg) {\n        //\n        cc.log(\"PartyController --- onFMessage_createPartyButtonClick\");\n\n        MVC.FContextManager.gotoID(\"createPartySet\");\n        msg.complete();\n    }\n});\nmodule.exports = PartyController;"
+  ]
+}

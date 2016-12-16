@@ -1,0 +1,334 @@
+2016-12-16T09:21:48.484Z - normal: Load ~/.CocosCreator/settings.json
+2016-12-16T09:21:48.489Z - normal: checking language setting...
+2016-12-16T09:21:48.490Z - normal: Language: zh
+2016-12-16T09:21:48.521Z - success: protocol editor-framework registered
+2016-12-16T09:21:48.521Z - success: protocol app registered
+2016-12-16T09:21:48.522Z - success: protocol packages registered
+2016-12-16T09:21:48.522Z - success: protocol theme registered
+2016-12-16T09:21:48.522Z - success: protocol unpack registerred
+2016-12-16T09:21:48.683Z - normal: connected!
+2016-12-16T09:21:48.688Z - normal: Check project /Users/mac/Desktop/TexasPocker
+2016-12-16T09:21:48.691Z - normal: Initializing Cocos Creator Editor
+2016-12-16T09:21:48.986Z - normal: Initializing Cocos2d
+2016-12-16T09:21:49.127Z - normal: Initializing Asset Database
+2016-12-16T09:21:49.145Z - success: protocol uuid registerred
+2016-12-16T09:21:49.145Z - success: protocol db registerred
+2016-12-16T09:21:49.145Z - success: protocol thumbnail registerred
+2016-12-16T09:21:49.146Z - normal: Loading editor/builtin packages
+2016-12-16T09:21:49.266Z - success: assets loaded
+2016-12-16T09:21:49.270Z - success: builder loaded
+2016-12-16T09:21:49.275Z - success: hierarchy loaded
+2016-12-16T09:21:49.279Z - success: inspector loaded
+2016-12-16T09:21:49.280Z - success: keystore loaded
+2016-12-16T09:21:49.284Z - success: node-library loaded
+2016-12-16T09:21:49.288Z - success: preferences loaded
+2016-12-16T09:21:49.304Z - success: project-importer loaded
+2016-12-16T09:21:49.309Z - success: project-settings loaded
+2016-12-16T09:21:49.313Z - success: ui-kit loaded
+2016-12-16T09:21:49.320Z - success: ui-grid loaded
+2016-12-16T09:21:49.325Z - success: scene loaded
+2016-12-16T09:21:49.326Z - success: sprite-editor loaded
+2016-12-16T09:21:49.332Z - success: timeline loaded
+2016-12-16T09:21:49.332Z - normal: Loading builtin packages
+2016-12-16T09:21:49.337Z - success: asset-db-debugger loaded
+2016-12-16T09:21:49.338Z - success: code-editor loaded
+2016-12-16T09:21:49.338Z - success: color-picker loaded
+2016-12-16T09:21:49.343Z - success: console loaded
+2016-12-16T09:21:49.346Z - success: package-manager loaded
+2016-12-16T09:21:49.350Z - success: tester loaded
+2016-12-16T09:21:49.353Z - success: ui-kit-preview-extra loaded
+2016-12-16T09:21:49.357Z - success: ui-kit-preview loaded
+2016-12-16T09:21:49.360Z - success: ui-tree loaded
+2016-12-16T09:21:49.390Z - normal: Initializing project /Users/mac/Desktop/TexasPocker
+2016-12-16T09:21:49.391Z - warn: Profile local-local warning: reset profile field: last-edit
+2016-12-16T09:21:49.392Z - normal: Loading packages
+2016-12-16T09:21:49.397Z - normal: Watching packages
+2016-12-16T09:21:49.412Z - normal: Run Application
+2016-12-16T09:21:50.695Z - success: preview server running at http://localhost:7456
+2016-12-16T09:21:54.260Z - normal: 1.3.2
+2016-12-16T09:21:56.051Z - warn: Should not define constructor for cc.Component undefined.
+2016-12-16T09:21:56.106Z - error: TypeError: Cannot set property '0' of undefined
+    at CCClass.init_StopEnrolment: "this.StopEnrolment[0]= 6" (assets/scripts/P9/Data/P9CreateSettings.js:211:8)
+    at P9CreateSettings.ctor (assets/scripts/P9/Data/P9CreateSettings.js:20:8)
+    at new P9CreateSettings (eval at _createCtor (/Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCClass.js:596:21), <anonymous>:7:9)
+    at Function.init (assets/scripts/Project.js:212:16)
+    at Function.start (assets/scripts/Project.js:663:12)
+    at Object.require.Project.FLanguage (assets/scripts/Project.js:671)
+    at s (../../../../../../Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/browser-pack/_prelude.js:1)
+    at file:///Users/mac/Desktop/TexasPocker/library/bundle.project.js?001:1:313
+    at Object.require.walletController.FWS_MVC (assets/scripts/P9/context/my/wallet/walletController.js:3)
+    at s (../../../../../../Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/browser-pack/_prelude.js:1)
+2016-12-16T09:21:56.113Z - normal: (状态) onEnterNode: root
+2016-12-16T09:21:56.114Z - info: (test) onEnterNode
+2016-12-16T09:21:56.116Z - info: (test) table={"data":{"_propertyValues_":{"publicCards":{"_array_":[]},"totalChips":0,"pots":{"_array_":[]}}},"seats":{"_obj_":{"0":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10001"},"name":"张建民","avatar":"10001.jpg"}}},"1":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10002"},"name":"张灿阳","avatar":"10002.jpg"}}},"2":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10003"},"name":"杨飞","avatar":"10003.jpg"}}},"3":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10004"},"name":"刘强","avatar":"10004.jpg"}}},"4":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10005"},"name":"桑桑","avatar":"10005.jpg"}}},"5":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10006"},"name":"高健","avatar":"10006.jpg"}}},"6":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10007"},"name":"钧浩","avatar":"10007.jpg"}}},"7":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10008"},"name":"安娜","avatar":"10008.jpg"}}},"8":{"_propertyValues_":{"data":{"playerData":{"_propertyValues_":{"handCards":{"_array_":[]},"cardGroup":{"_array_":[]},"currentRoundChips":0}}},"user":{"_propertyValues_":{"data":{},"id":"10009"},"name":"球球","avatar":"10009.jpg"}}}}},"currentPlayerSeat":-1,"watchers":{"_array_":[]},"id":"12"}
+2016-12-16T09:21:56.117Z - normal: (状态) onEnterNode: root/loading
+2016-12-16T09:21:56.117Z - normal: party_CreatePartyController
+2016-12-16T09:21:56.117Z - info: (状态) 切换至: root/loading
+2016-12-16T09:21:56.128Z - warn: The "type" attribute of "SNGpartyScript.pageView" is undefined when loading script.
+2016-12-16T09:22:24.099Z - warn: Can not find script "2c007ccd-1cae-46ed-9e45-e2ae7b73915a"
+2016-12-16T09:22:24.100Z - warn: Can not find script "f00c5213-6bf7-452e-b15e-b148e801abce"
+2016-12-16T09:22:24.137Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.137Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.138Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.138Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.138Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.138Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.139Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.139Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.140Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.140Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.140Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.141Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.141Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.141Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.141Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.142Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.142Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.142Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.142Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.142Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.142Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.143Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.143Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.143Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.143Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.143Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.144Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.144Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.144Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.144Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.144Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.145Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.145Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.145Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.145Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.145Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.146Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.146Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.146Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.146Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.146Z - error: Error: Can not get asset url by uuid "c03ff8ab-d242-4a96-a222-6d273672f3ca", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.146Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.147Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:24.147Z - error: Error: Can not get asset url by uuid "3be824eb-8481-48e8-9427-21c5adac9888", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:49.006Z - warn: Can not find script "bd98623e-1fa8-412b-ad44-78ffe4c908b3"
+2016-12-16T09:22:51.639Z - warn: Can not find script "dae4668b-3ac8-4aad-9413-a7c63bae9b95"
+2016-12-16T09:22:51.640Z - warn: Can not find script "dae4668b-3ac8-4aad-9413-a7c63bae9b95"
+2016-12-16T09:22:51.641Z - warn: Can not find script "dae4668b-3ac8-4aad-9413-a7c63bae9b95"
+2016-12-16T09:22:51.642Z - warn: Can not find script "dae4668b-3ac8-4aad-9413-a7c63bae9b95"
+2016-12-16T09:22:51.643Z - warn: Can not find script "dae4668b-3ac8-4aad-9413-a7c63bae9b95"
+2016-12-16T09:22:51.644Z - warn: Can not find script "dae4668b-3ac8-4aad-9413-a7c63bae9b95"
+2016-12-16T09:22:51.646Z - warn: Can not find script "dae4668b-3ac8-4aad-9413-a7c63bae9b95"
+2016-12-16T09:22:51.646Z - warn: Can not find script "bd98623e-1fa8-412b-ad44-78ffe4c908b3"
+2016-12-16T09:22:51.651Z - error: Error: Can not get asset url by uuid "bad4c955-f614-4e92-a7bb-1f724e08ef23", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:51.652Z - error: Error: Can not get asset url by uuid "bad4c955-f614-4e92-a7bb-1f724e08ef23", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:51.652Z - error: Error: Can not get asset url by uuid "bad4c955-f614-4e92-a7bb-1f724e08ef23", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:51.652Z - error: Error: Can not get asset url by uuid "bad4c955-f614-4e92-a7bb-1f724e08ef23", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:51.652Z - error: Error: Can not get asset url by uuid "bad4c955-f614-4e92-a7bb-1f724e08ef23", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:51.653Z - error: Error: Can not get asset url by uuid "bad4c955-f614-4e92-a7bb-1f724e08ef23", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T09:22:51.653Z - error: Error: Can not get asset url by uuid "bad4c955-f614-4e92-a7bb-1f724e08ef23", the asset may be deleted.
+    at /Applications/CocosCreator 2.app/Contents/Resources/engine/cocos2d/core/platform/CCAssetLibrary.js:128:30
+    at EventEmitter.<anonymous> (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:5427)
+    at emitTwo (events.js:106:13)
+    at EventEmitter.emit (events.js:191:7)
+2016-12-16T10:32:24.985Z - info: shutdown preview server

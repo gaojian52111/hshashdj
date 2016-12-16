@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,mBAAmB,CAAC;AACxB,IAAI,mBAAmB,CAAC;AACxB,mBAAmB,GAAG,EAAE,CAAC,KAAK,CAAC;AAC3B,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;;;;;;KAOzB;;AAED,eAAW,EAAE,uBAAW;AACpB,2BAAmB,CAAC,gBAAgB,CAAC,IAAI,CAAC,CAAC;KAC9C;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,mBAAmB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar party_joinPartyView;\nvar partyJoinPartyLayer;\nparty_joinPartyView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n        cc.log(\"myTurnLayer\");\n        // cc.loader.loadRes(\"TestProfab/partyJoinPartyLayer\", function (err, prefab) {\n        //     cc.log(err);\n        //     partyJoinPartyLayer = cc.instantiate(prefab);\n        //     cc.director.getScene().addChild(partyJoinPartyLayer);\n        // });\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        partyJoinPartyLayer.removeFromParent(true);\n    }\n\n});\nmodule.exports = party_joinPartyView;\n"
+  ]
+}

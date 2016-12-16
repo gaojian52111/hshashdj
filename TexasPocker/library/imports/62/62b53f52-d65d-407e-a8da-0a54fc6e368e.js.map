@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";AACA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACnC,IAAI,kBAAkB,CAAC;AACvB,kBAAkB,GAAG,EAAE,CAAC,KAAK,CAAC;AAC1B,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;AACD,eAAW,EAAE,uBAAW;;AAEnB,UAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,qBAAqB,CAAC,CAAC;;AAI9C,UAAE,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC;;KAEzC;;AAED,eAAW,EAAE,uBAAW,EAEvB;CACJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,kBAAkB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "//牌局统计\nconst MVC = require(\"FWS_MVC\");\nconst Project = require(\"Project\");\nvar gamestatisticsView;\ngamestatisticsView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n    onEnterNode: function() {\n        //加载结算场景\n         cc.director.loadScene(\"gamestatisticsScene\");\n\n\n\n        cc.log(\"loginController onEnterNode\");\n        //loadscene。。。\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n});\nmodule.exports = gamestatisticsView;\n"
+  ]
+}

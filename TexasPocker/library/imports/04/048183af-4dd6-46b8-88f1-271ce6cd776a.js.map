@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";AACA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,OAAO,GAAG,OAAO,CAAC,oBAAoB,CAAC,CAAC;;AAE9C,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE;AACR,aAAK,EAAC;AACF,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,KAAK;SAChB;KACJ;;;AAMD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,OAAO,EAAE,CAAC;AACf,YAAI,CAAC,YAAY,CAAC,YAAY;;;SAG7B,EAAC,CAAC,CAAC,CAAC;KAER;AACD,aAAS,EAAC,qBAAY;AAClB,YAAI,CAAC,UAAU,EAAE,CAAC;KAErB;AACD,mBAAe,EAAC,2BAAU,EAEzB;AACD,mBAAe,EAAC,2BAAU;AACtB,YAAI,GAAG,GAAG,EAAE,CAAC;AACb,WAAG,CAAC,OAAO,GAAG,GAAG,CAAC;AAClB,WAAG,CAAC,KAAK,GAAG,IAAI,CAAC;AACjB,WAAG,CAAC,KAAK,GAAG,KAAK,CAAC;AAClB,WAAG,CAAC,QAAQ,GAAG,MAAM,CAAC;AACtB,WAAG,CAAC,OAAO,GAAG,MAAM,CAAC;AACrB,WAAG,CAAC,KAAK,GAAG,OAAO,CAAC;AACpB,WAAG,CAAC,MAAM,GAAG,SAAS,CAAC;AACvB,WAAG,CAAC,SAAS,GAAG,QAAQ,CAAC;AACzB,WAAG,CAAC,IAAI,GAAG,kBAAkB,CAAC;AAC9B,WAAG,CAAC,IAAI,GAAG,GAAG,CAAC;;AAEf,oBAAY,CAAC,OAAO,CAAC,SAAS,CAAC,CAAC;AAChC,oBAAY,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC;KAE7B;AACD,mBAAe,EAAC,2BAAU,EAEzB;AACD,WAAO,EAAC,iBAAS,GAAG,EAAC;AACjB,YAAI,CAAC,KAAK,CAAC,MAAM,GAAG,GAAG,CAAC;KAE3B;;;AAGD,UAAM,EAAE,gBAAU,EAAE,EAAE,EAErB;CACJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "\nconst MVC = require(\"FWS_MVC\");\nconst GateWAY = require(\"FWS_NATIVE_GATEWAY\");\n\ncc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n        label:{\n            default:null,\n            type:cc.Label\n        }\n    },\n\n\n\n\n    // use this for initialization\n    onLoad: function () {\n        this.connect();\n        this.scheduleOnce(function () {\n            // MVC.FContextManager.gotoID(\"login\");\n\n        },2);\n\n    },\n    onDestory:function () {\n        this.disconnect();\n\n    },\n    clickForCppToJs:function(){\n\n    },   \n    clickForSendMsg:function(){\n        var obj = {};\n        obj.version = \"1\";\n        obj.appid = \"11\";\n        obj.msgId = '111';\n        obj.sequence = '1111';\n        obj.retcode = '1111';\n        obj.extra = \"11111\";\n        obj.router = \"1111111\";\n        obj.timestamp = \"191919\";\n        obj.body = \"1111111111111111\";\n        obj.type = \"1\";\n\n        jsCppConnect.testlog(\"发送了网络消息\");\n        jsCppConnect.jsToCpp(obj);\n\n    },    \n    clickForConnect:function(){\n\n    },\n    cppTOjs:function(msg){\n        this.label.string = msg;\n\n    },\n\n    // called every frame\n    update: function (dt) {\n\n    },\n});\n"
+  ]
+}

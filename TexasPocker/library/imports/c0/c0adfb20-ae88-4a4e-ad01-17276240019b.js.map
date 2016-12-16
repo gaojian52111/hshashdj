@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,QAAQ,GAAG,EAAE,CAAC,IAAI,CAAC;AACnB,QAAI,EAAC,CAAC;AACN,OAAG,EAAC,CAAC;AACL,OAAG,EAAC,CAAC;AACL,OAAG,EAAC,CAAC;CACR,CAAC,CAAC;AACH,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE;AACR,gBAAQ,EAAC,QAAQ,CAAC,IAAI;;AAEtB,eAAO,EAAC,CAAC;;AAET,cAAM,EAAC;AACH,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,IAAI;SACf;;KAGJ;;AAED,UAAM,EAAE,kBAAY,EAEnB;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomType = cc.Enum({\n    NONE:0,\n    MTT:1,\n    SNG:2,\n    STD:3\n});\ncc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n        roomType:roomType.NONE,\n        //奖池\n        jackpot:0,\n        //palyer的模型(头像等)\n        player:{\n            default:null,\n            type:cc.Node\n        },\n\n\n    },\n    // use this for initialization\n    onLoad: function () {\n\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "excludeScenes": [
+    "d49c7ba3-c69e-42b6-adba-a57d0ac0d1a4",
+    "b033274c-bba6-430e-92d0-487f93836782",
+    "e30d4c16-14e6-4314-bb0b-0d289b60bffc",
+    "9c83f4bd-fbe2-482b-a616-290b15f4f9c6",
+    "5fe6a6b7-8fe8-44a1-bc5c-361379b87705",
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.TexasPocker",
+  "startScene": "8644e343-9c66-4fe8-8f1d-679895b3ee04",
+  "title": "TexasPocker",
+  "webOrientation": "auto"
+}

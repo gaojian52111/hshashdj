@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"table","_duration":0.2,"sample":10,"curveData":{"comps":{"cc.Widget":{}},"props":{"position":[{"frame":0,"value":[360,1000]},{"frame":0.2,"value":[360,640]}],"scaleX":[{"frame":0,"value":1},{"frame":0.2,"value":0.5}],"scaleY":[{"frame":0,"value":1},{"frame":0.2,"value":0.5}]}}}

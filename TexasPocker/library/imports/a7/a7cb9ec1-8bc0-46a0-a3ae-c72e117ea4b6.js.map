@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,MAAM,CAAC;AACX,MAAM,GAAG,EAAE,CAAC,KAAK,CAAC;AACd,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;;;;KAOvB;;AAED,eAAW,EAAE,uBAAW,EAEvB;;;;;CAKJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,MAAM,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar myView;\nmyView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        //加载结算场景\n        // cc.director.loadScene(\"myScene\");\n            \n\n\n        //loadscene。。。\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n        // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\nmodule.exports = myView;\n"
+  ]
+}

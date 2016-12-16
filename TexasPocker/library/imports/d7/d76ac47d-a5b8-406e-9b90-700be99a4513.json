@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "profile_vipIcon_Lv4+",
+    "texture": "d1b0c5c6-79d5-4edd-b1e8-007dbf090981",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      96,
+      96
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      96,
+      96
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,oBAAoB,CAAC;AACzB,IAAI,gBAAgB,CAAC;AACrB,oBAAoB,GAAG,EAAE,CAAC,KAAK,CAAC;AAC5B,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,GAAG,CAAC,kBAAkB,CAAC,CAAC;;AAE3B,YAAI,IAAI,GAAG,IAAI,GAAG,CAAC,QAAQ,CAAC,kBAAkB,EAAE,aAAa,CAAC,CAAC;AAC/D,YAAI,CAAC,IAAI,EAAE,CAAC;KAEf;;AAED,eAAW,EAAE,uBAAW;;KAEvB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,oBAAoB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar Room_roomWaitingView;\nvar roomWaitingLayer;\nRoom_roomWaitingView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n        //\n        cc.log(\"roomWaitingLayer\");\n        //发一条消息 让roomWaitingLayer 显示\n        var msg1 = new MVC.FMessage(\"showWaitingLayer\", \"roomWaiting\");\n        msg1.send();\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        // roomWaitingLayer.removeFromParent(true);\n    }\n\n});\nmodule.exports = Room_roomWaitingView;"
+  ]
+}

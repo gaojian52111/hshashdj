@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,QAAQ,CAAC;AACb,QAAQ,GAAG,EAAE,CAAC,KAAK,CAAC;AAChB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,GAAG,CAAC,WAAW,CAAC,CAAC;AACpB,UAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,WAAW,EAAC,YAAY;AAC1C,cAAE,CAAC,MAAM,CAAC,OAAO,CAAC,6BAA6B,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AACpE,kBAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;;AAEZ,oBAAI,gBAAgB,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AAC9C,kBAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,gBAAgB,CAAC,CAAC;AAClD,kBAAE,CAAC,GAAG,CAAC,qBAAqB,GAAC,gBAAgB,CAAC,WAAW,EAAE,CAAC,CAAC;aAChE,CAAC,CAAC;SACN,CAAC,CAAC;;AAEH,UAAE,CAAC,GAAG,CAAC,kBAAkB,CAAC,CAAC;KAC9B;;AAED,eAAW,EAAE,uBAAW,EAEvB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,QAAQ,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomView;\nroomView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n    * 首先\n    * */\n    onEnterNode: function() {\n        //加载roomScene（包括进入牌局等待）\n        cc.log(\"roomScene\");\n        cc.director.loadScene(\"roomScene\",function () {\n            cc.loader.loadRes(\"TestProfab/roomWaitingLayer\", function (err, prefab) {\n                cc.log(err);\n                //加载出来之后profab的销毁 有他自己决定\n                var roomWaitingLayer = cc.instantiate(prefab);\n                cc.director.getScene().addChild(roomWaitingLayer);\n                cc.log(\"roomWaitingLayer on\"+roomWaitingLayer.getPosition());\n            });\n        });\n\n        cc.log(\"roomLoadingScene\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    },\n\n});\nmodule.exports = roomView;\n"
+  ]
+}

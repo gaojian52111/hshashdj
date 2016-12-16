@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,KAAK,GAAG,OAAO,CAAC,WAAW,CAAC,CAAC;AACnC,IAAI,UAAU,CAAE;AAChB,UAAU,GAAI,EAAE,CAAC,KAAK,CAAC;AACnB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,oBAAgB,EAAE,0BAAS,GAAG,EAAE;AAC5B,UAAE,CAAC,GAAG,CAAC,UAAU,GAAC,GAAG,CAAC,CAAC;AACvB,WAAG,CAAC,QAAQ,EAAE,CAAC;AACf,YAAI,IAAI,GAAG,IAAI,GAAG,CAAC,QAAQ,CAAC,aAAa,EAAC,YAAY,CAAC,CAAC;AACxD,YAAI,CAAC,IAAI,CAAC,UAAU,GAAG,IAAI,CAAC;AAC5B,YAAI,CAAC,IAAI,EAAE,CAAC;KAEf;;CAEJ,CAAC,CAAC;;AAEH,MAAM,CAAC,OAAO,GAAG,UAAU,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nconst MODEL = require(\"FWS_MODEL\");\nvar loginModel ;\nloginModel  = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    onFMessage_Login: function(msg) {\n        cc.log(\"我收到登录消息啦\"+msg);\n        msg.complete();\n        var msg2 = new MVC.FMessage(\"loginResult\",\"loginScene\");\n        msg2.args.loginState = true;\n        msg2.send();\n\n    }\n\n});\n\nmodule.exports = loginModel;\n"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,SAAS,CAAC;AACd,IAAI,UAAU,CAAC;AACf,SAAS,GAAG,EAAE,CAAC,KAAK,CAAC;AACjB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;;AAGpB,UAAE,CAAC,GAAG,CAAC,uBAAuB,CAAC,CAAC;;;AAIhC,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,uBAAuB,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AAClE,cAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACZ,sBAAU,GAAE,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AACnC,cAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,UAAU,CAAC,CAAC;SAC3C,CAAC,CAAC;KACN;;AAED,eAAW,EAAE,uBAAW,EAEvB;;;;;CAKJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,SAAS,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar partyView;\nvar paytyLayer;\npartyView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        \n        //loadscene。。。\n        cc.log(\"partyScene is loading\");\n      \n\n        //加载paiju场景\n        cc.loader.loadRes(\"TestProfab/partyScene\", function (err, prefab) {\n        cc.log(err);\n        paytyLayer= cc.instantiate(prefab);\n        cc.director.getScene().addChild(paytyLayer);\n        });\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\nmodule.exports = partyView;\n"
+  ]
+}

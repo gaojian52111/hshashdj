@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;;AAE/B,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE;AACR,aAAK,EAAC;AACF,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,KAAK;SAChB;KACJ;;AAED,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,OAAO,EAAE,CAAC;AACf,YAAI,CAAC,YAAY,CAAC,YAAY;;;;;SAK7B,EAAC,CAAC,CAAC,CAAC;KAER;AACD,aAAS,EAAC,qBAAY;AAClB,YAAI,CAAC,UAAU,EAAE,CAAC;KAErB;;CAIJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\n\ncc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n        label:{\n            default:null,\n            type:cc.Label\n        }\n    },\n    // use this for initialization\n    onLoad: function () {\n        this.connect();\n        this.scheduleOnce(function () {\n            // MVC.FContextManager.gotoID(\"login\");\n            // var obj = new Object();\n            // obj.data = \"我是数据\"\n            // gateWay.to(\"第一次测试！！！\");\n        },2);\n\n    },\n    onDestory:function () {\n        this.disconnect();\n\n    },\n\n\n\n});\n"
+  ]
+}

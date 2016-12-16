@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,QAAQ,CAAC;AACb,IAAI,eAAe,CAAC;AACpB,QAAQ,GAAG,EAAE,CAAC,KAAK,CAAC;AAChB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,WAAW,CAAC,CAAC;;;;;;;;;;KAUtC;;AAED,eAAW,EAAE,uBAAW,EAEvB;;;;;CAKJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,QAAQ,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar MainView;\nvar playerHeadLayer;\nMainView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        //加载结算场景\n        cc.director.loadScene(\"MainScene\");\n        //loadscene。。。\n\n                //loadscene。。。\n        // cc.loader.loadRes(\"TestProfab/main\", function (err, prefab) {\n        //     cc.log(err);\n        //     playerHeadLayer = cc.instantiate(prefab);\n        //     cc.director.getScene().addChild(playerHeadLayer);\n        // });\n        // cc.director.loadScene(\"roomScene\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n        // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\nmodule.exports = MainView;\n"
+  ]
+}

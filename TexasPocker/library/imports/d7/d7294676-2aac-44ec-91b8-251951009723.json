@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "table_icon_userPoker",
+    "texture": "bcbf5547-2474-4a50-882b-21042b2e2c5e",
+    "atlas": "",
+    "rect": [
+      6,
+      4,
+      48,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      60
+    ]
+  }
+}

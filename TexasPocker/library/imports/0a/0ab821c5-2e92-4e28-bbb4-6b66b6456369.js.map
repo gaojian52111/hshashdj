@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";AACA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACnC,IAAI,gBAAgB,CAAC;AACrB,gBAAgB,GAAG,EAAE,CAAC,KAAK,CAAC;AACxB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;;AAGpB,UAAE,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC;KACzC;;AAED,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC;KACzC;CA4BJ,CAAC,CAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACH,MAAM,CAAC,OAAO,GAAG,gBAAgB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "//钱包\nconst MVC = require(\"FWS_MVC\");\nconst Project = require(\"Project\");\nvar walletController;\nwalletController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        //loadscene。。。\n\n        cc.log(\"loginController onEnterNode\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        cc.log(\"loginController onLeaveNode\");\n    },\n    // //切换钱包界面\n    // onFMessage_walletBtnclick: function(msg) {\n    //     MVC.FLog.data(\"钱包跳转\", \"接收消息 {0}\", msg);\n    //     MVC.FContextManager.gotoID(\"wallet\");\n\n    //     if(msg){\n    //         if(msg.args.name = \"前往钱包页面\"){\n    //             MVC.FContextManager.gotoID(\"wallet\");\n    //             msg.complete();\n    //         }\n    //     }\n    // }\n    // onFMessage_clickLoginButton: function(msg) {\n    //     if( msg.args.name == \"登录\"){\n    //         //进入分享节点\n    //         cc.log(\"goto main 前\");\n    //         MVC.FContextManager.gotoID(\"main\");\n    //         cc.log(\"goto main 后\");\n    //         //发送消息给网络模块\n    //     }else if(msg.args.name == \"注册\"){\n    //         //进入分享节点\n    //         // MVC.FContextManager.gotoID(\"Share\");\n    //         //发送消息给网络模块\n    //     }\n\n    // }\n\n});\nmodule.exports = walletController;"
+  ]
+}

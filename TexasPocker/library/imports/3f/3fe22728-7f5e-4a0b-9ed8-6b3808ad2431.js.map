@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACnC,IAAI,oCAAoC,CAAC;AACzC,oCAAoC,GAAG,EAAE,CAAC,KAAK,CAAC;AAC5C,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;;AAGpB,UAAE,CAAC,GAAG,CAAC,kDAAkD,CAAC,CAAC;KAC9D;;AAED,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,kDAAkD,CAAC,CAAC;KAC9D;AACD,sCAAkC,EAAE,4CAAS,GAAG,EAAE;AAC9C,WAAG,CAAC,eAAe,CAAC,MAAM,CAAC,aAAa,CAAC,CAAC;AAC1C,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,oCAAoC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nconst Project = require(\"Project\");\nvar party_chackSportsPartyinfoController;\nparty_chackSportsPartyinfoController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        //loadscene。。。\n\n        cc.log(\"party_chackSportsPartyinfoController onEnterNode\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        cc.log(\"party_chackSportsPartyinfoController onLeaveNode\");\n    },\n    onFMessage_MTTSNGclicksignUpButton: function(msg) {\n        MVC.FContextManager.gotoID(\"loadingGame\");\n        msg.complete();\n    }\n\n});\nmodule.exports = party_chackSportsPartyinfoController;\n\n\n"
+  ]
+}

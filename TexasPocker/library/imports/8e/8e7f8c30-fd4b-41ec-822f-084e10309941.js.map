@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,EAAE,CAAC,SAAS;;AAErB,cAAU,EAAE;AACR,cAAM,EAAC;AACH,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,MAAM;SACjB;KACJ;;;AAGD,UAAM,EAAE,kBAAY;;AAEhB,YAAI,CAAC,IAAI,CAAC,cAAc,CAAC,EAAE,CAAC,QAAQ,CAAC,cAAc,EAAE,CAAC,CAAC;KAC1D;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "cc.Class({\n    extends: cc.Component,\n\n    properties: {\n        prefab:{\n            default:null,\n            type:cc.Prefab\n        }\n    },\n\n    // use this for initialization\n    onLoad: function () {\n\n        this.node.setContentSize(cc.director.getVisibleSize());\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

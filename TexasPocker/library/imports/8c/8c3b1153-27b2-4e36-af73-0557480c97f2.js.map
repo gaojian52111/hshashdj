@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,eAAe,CAAC;AACpB,IAAI,SAAS,CAAC;AACd,eAAe,GAAG,EAAE,CAAC,KAAK,CAAC;AACvB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAGX;;;;;;;;;;;;;;AAcD,eAAW,EAAE,uBAAW;;;;;;AAMpB,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,wBAAwB,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AAC/D,cAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACZ,cAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AACtB,qBAAS,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AACnC,cAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,CAAC;SAC9C,CAAC,CAAC;;AAEH,UAAE,CAAC,GAAG,CAAC,kBAAkB,CAAC,CAAC;KAC9B;;AAED,eAAW,EAAE,uBAAW;AACpB,iBAAS,CAAC,gBAAgB,CAAC,IAAI,CAAC,CAAC;KACpC;;AAED,8BAA0B,EAAC,sCAAY;;;KAItC;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,eAAe,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomLoadingView;\nvar loadLayer;\nroomLoadingView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n    * 加载loadingView （转圈的那个页面） 所有的房间内的view 都在一个scene上解决\n    * 使用方法：\n    *       1，调用方法：\n    *           a,通过director获取当前scene 向上面添加新的view\n    *           b,通过发送消息给自己写的脚本（挂载在roomScene上的）发送消息来实现某些调用\n    *\n    *       2，要求：\n    *           a,自己的显示需求(context节点的显示需求)单独写一个脚本 挂载在roomScene上\n    *       3，\n    * */\n    onEnterNode: function() {\n        //由于第一个scene还没加载的时候 不能调用loadScene方法\n        // cc.director.loadScene(\"room-loadingScene\");\n        // 加载 Prefab\n        //向谁获取我上面的人的信息\n\n        cc.loader.loadRes(\"TestProfab/loadingGame\", function (err, prefab) {\n            cc.log(err);\n            cc.log(\"loadingGame\");\n            loadLayer = cc.instantiate(prefab);\n            cc.director.getScene().addChild(loadLayer);\n        });\n        //loadscene。。。\n        cc.log(\"roomLoadingScene\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        loadLayer.removeFromParent(true);\n    },\n    //等待接收加载loadingView的消息\n    onFMessage_showLoadingView:function () {\n        //获取loadingView\n\n\n    },\n\n});\nmodule.exports = roomLoadingView;\n"
+  ]
+}

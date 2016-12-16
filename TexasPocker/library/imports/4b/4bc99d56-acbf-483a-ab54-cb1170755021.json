@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "chat_icon_cancel",
+    "texture": "4297865c-ca6f-4951-ab50-c9fb92aeacea",
+    "atlas": "",
+    "rect": [
+      117,
+      73,
+      102,
+      142
+    ],
+    "offset": [
+      0,
+      24
+    ],
+    "originalSize": [
+      336,
+      336
+    ]
+  }
+}

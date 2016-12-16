@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACnC,IAAI,eAAe,CAAC;AACpB,eAAe,GAAG,EAAE,CAAC,KAAK,CAAC;AACvB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;;AAGpB,UAAE,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC;KACzC;;AAED,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,6BAA6B,CAAC,CAAC;KACzC;AACD,+BAA2B,EAAE,qCAAS,GAAG,EAAE;AACvC,YAAI,GAAG,CAAC,IAAI,CAAC,IAAI,IAAI,IAAI,EAAC;;AAEtB,cAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AACtB,eAAG,CAAC,eAAe,CAAC,MAAM,CAAC,MAAM,CAAC,CAAC;AACnC,cAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;;SAEzB,MAAK,IAAG,GAAG,CAAC,IAAI,CAAC,IAAI,IAAI,IAAI,EAAC;;;;aAI9B;KAEJ;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,eAAe,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nconst Project = require(\"Project\");\nvar LoginController;\nLoginController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        //loadscene。。。\n\n        cc.log(\"LoginController onEnterNode\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        cc.log(\"LoginController onLeaveNode\");\n    },\n    onFMessage_clickLoginButton: function(msg) {\n        if( msg.args.name == \"登录\"){\n            //进入分享节点\n            cc.log(\"goto main 前\");\n            MVC.FContextManager.gotoID(\"main\");\n            cc.log(\"goto main 后\");\n            //发送消息给网络模块\n        }else if(msg.args.name == \"注册\"){\n            //进入分享节点\n            // MVC.FContextManager.gotoID(\"Share\");\n            //发送消息给网络模块\n        }\n\n    }\n\n});\nmodule.exports = LoginController;\n\n\n"
+  ]
+}

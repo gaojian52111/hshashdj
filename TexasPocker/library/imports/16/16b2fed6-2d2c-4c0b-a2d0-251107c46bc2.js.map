@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,eAAe,CAAC;AACpB,eAAe,GAAG,EAAE,CAAC,KAAK,CAAC;AACvB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;;;;;;;;;;AAeD,eAAW,EAAE,uBAAW;;;AAGpB,UAAE,CAAC,GAAG,CAAC,kBAAkB,CAAC,CAAC;KAC9B;;AAED,eAAW,EAAE,uBAAW,EAEvB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,eAAe,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomLoadingView;\nroomLoadingView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     * 加载loadingView （转圈的那个页面） 所有的房间内的view 都在一个scene上解决\n     * 使用方法：\n     *       1，调用方法：\n     *           a,通过director获取当前scene 向上面添加新的view\n     *           b,通过发送消息给自己写的脚本（挂载在roomScene上的）发送消息来实现某些调用\n     *\n     *       2，要求：\n     *           a,自己的显示需求(context节点的显示需求)单独写一个脚本 挂载在roomScene上\n     *       3，\n     *\n     * */\n    onEnterNode: function() {\n\n        //loadscene。。。\n        cc.log(\"roomLoadingScene\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n\n});\nmodule.exports = roomLoadingView;\n"
+  ]
+}

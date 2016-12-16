@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,UAAU,GAAG,EAAE,CAAC,IAAI,CAAC;AACrB,UAAM,EAAG,CAAC;AACV,UAAM,EAAC,CAAC;CACX,CAAC,CAAC;;AAEH,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE;;AAER,YAAI,EAAC;AACD,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,MAAM;SACjB;;AAED,kBAAU,EAAC;AACP,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,KAAK;SAChB;;AAED,iBAAS,EAAC;AACN,uBAAQ,IAAI;AACZ,gBAAI,EAAC,EAAE,CAAC,IAAI;SACf;;;AAGD,WAAG,EAAC,CAAC,CAAC;AACN,YAAI,EAAE,UAAU,CAAC,MAAM;;KAE1B;AACD,UAAM,EAAC,kBAAY;AACf,YAAI,IAAI,CAAC,IAAI,IAAI,UAAU,CAAC,MAAM,EAAC;;AAE/B,gBAAI,CAAC,UAAU,CAAC,MAAM,GAAG,MAAM,CAAC;;SAEnC;;KAEJ;;;;;;AAMD,4BAAwB,EAAC,kCAAU,GAAG,EAAE,EAEvC;;CAEJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar playerType = cc.Enum({\n    noBody : 0,\n    player:1\n});\n\ncc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n        //头像\n        icon:{\n            default:null,\n            type:cc.Sprite\n        },\n        //名字\n        playerName:{\n            default:null,\n            type:cc.Label\n        },\n        //个人信息\n        infoLayer:{\n            default:null,\n            type:cc.Node\n        },\n        //我的属性\n        //playerNum\n        num:-1,\n        type: playerType.noBody,\n\n    },\n    onload:function () {\n        if (this.type == playerType.noBody){\n            //有一套默认的显示方式\n            this.playerName.string = \"此桌没人\";\n            //代表此桌没人\n        }\n        //根据num来设置position\n    },\n    //TODO: 设置这个玩家的各种信息\n    /*\n    * 玩家类型\n    *\n    * */\n    onFMessage_setPlayerInfo:function (msg) {\n\n    },\n\n});\n"
+  ]
+}

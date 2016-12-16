@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,oBAAoB,CAAC;AACzB,IAAI,wBAAwB,CAAC;AAC7B,oBAAoB,GAAG,EAAE,CAAC,KAAK,CAAC;AAC5B,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AACtB,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,qCAAqC,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AAC5E,cAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACZ,oCAAwB,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AAClD,cAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,wBAAwB,CAAC,CAAC;SAC7D,CAAC,CAAC;KAEN;;AAED,eAAW,EAAE,uBAAW;AACpB,gCAAwB,CAAC,gBAAgB,CAAC,IAAI,CAAC,CAAC;KACnD;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,oBAAoB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar Room_roomWaitingView;\nvar roomRoomWaitingViewLayer;\nRoom_roomWaitingView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n        //加载定庄动画\n        cc.log(\"myTurnLayer\");\n        cc.loader.loadRes(\"TestProfab/roomRoomWaitingViewLayer\", function (err, prefab) {\n            cc.log(err);\n            roomRoomWaitingViewLayer = cc.instantiate(prefab);\n            cc.director.getScene().addChild(roomRoomWaitingViewLayer);\n        });\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        roomRoomWaitingViewLayer.removeFromParent(true);\n    }\n\n});\nmodule.exports = Room_roomWaitingView;"
+  ]
+}

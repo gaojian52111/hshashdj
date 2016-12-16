@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";AACA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE;;;;;;;;;;;KAWX;;;AAGD,UAAM,EAAE,kBAAY;;AAEhB,YAAI,CAAC,OAAO,EAAE,CAAC;KAClB;;AAED,aAAS,EAAE,qBAAY;;AAEnB,UAAE,CAAC,GAAG,CAAC,UAAU,CAAC,CAAC;AACnB,YAAI,CAAC,UAAU,EAAE,CAAC;KACrB;;CAMJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "//钱包\nconst MVC = require(\"FWS_MVC\");\ncc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n        // foo: {\n        //    default: null,      // The default value will be used only when the component attaching\n        //                           to a node for the first time\n        //    url: cc.Texture2D,  // optional, default is typeof default\n        //    serializable: true, // optional, default is true\n        //    visible: true,      // optional, default is true\n        //    displayName: 'Foo', // optional\n        //    readonly: false,    // optional, default is false\n        // },\n        // ...\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        //加载的时候要与消息路由连接\n        this.connect();\n    },\n    //销毁\n    onDestroy: function ( ){\n        //销毁的时候要断开连接\n        cc.log(\"销毁了 断开连接\");\n        this.disconnect();\n    },\n\n    // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\n"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,mBAAmB,CAAC;AACxB,IAAI,mBAAmB,CAAC;AACxB,mBAAmB,GAAG,EAAE,CAAC,KAAK,CAAC;AAC3B,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,sBAAsB,CAAC,CAAC;AAC/B,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,gCAAgC,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AACvE,cAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACZ,cAAE,CAAC,GAAG,CAAC,cAAc,CAAC,CAAC;;AAEvB,+BAAmB,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AAC7C,cAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,mBAAmB,CAAC,CAAC;SACxD,CAAC,CAAC;KAEN;;AAED,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;;AAEtB,2BAAmB,CAAC,gBAAgB,CAAC,IAAI,CAAC,CAAC;KAC9C;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,mBAAmB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar partyCreateSetLayer;\nvar party_CreateSetView;\nparty_CreateSetView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n        cc.log(\"partyCreateSetLayer2\");\n        cc.loader.loadRes(\"TestProfab/createpartysetLayer\", function (err, prefab) {\n            cc.log(err);\n            cc.log(\"myTurnLayer2\");\n\n            partyCreateSetLayer = cc.instantiate(prefab);\n            cc.director.getScene().addChild(partyCreateSetLayer);\n        });\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        cc.log(\"myTurnLayer\");\n\n        partyCreateSetLayer.removeFromParent(true);\n    }\n\n});\nmodule.exports = party_CreateSetView;"
+  ]
+}

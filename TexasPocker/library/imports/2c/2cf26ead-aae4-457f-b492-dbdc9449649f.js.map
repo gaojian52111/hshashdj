@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;;AAQA,IAAM,YAAY,GAAG,EAAE,CAAC,KAAK,CAAC;AAC1B,MAAI,EAAE,cAAc;AACpB,MAAI,EAAE,gBAAW,EAAE;;AAEnB,SAAO,EAAE;;;;;;;AAOL,eAAW,EAAE,WAAW;;;;AAIxB,iBAAa,EAAE,IAAI;;;;AAInB,kBAAc,EAAE,4BAA4B;;;;;AAK5C,kBAAc,EAAE,0BAA0B;;;;AAK1C,YAAQ,EAAE;AACN,QAAE,EAAE,EAAE;AACN,WAAK,EAAE,EAAE;AACT,aAAO,EAAE;AACL,YAAI,EAAE,EAAE;AACR,cAAM,EAAE,EAAE;;OAEb;KACJ;;;;AAID,gBAAY,EAAE,sBAAS,MAAM,EAAE;AAC3B,aAAO,YAAY,GAAG,MAAM,CAAC;KAChC;GACJ;CACJ,CAAC,CAAC;;AAEH,MAAM,CAAC,OAAO,GAAG,YAAY,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "/*\n * 环境参数\n * @Author: thor.liu \n * @Date: 2016-12-05 14:26:34 \n * @Last Modified by: thor.liu\n * @Last Modified time: 2016-12-13 18:48:21\n */\n\nconst FEnvironment = cc.Class({\n    name: \"FEnvironment\",\n    ctor: function() {},\n\n    statics: {\n\n        //────────────────────────────────────────────────────────── 参数定义\n\n        /**\n         * TCP服务器IP地址\n         */\n        tcpServerIP: \"127.0.0.1\",\n        /**\n         * TCP服务器端口\n         */\n        tcpServerPort: 4000,\n        /**\n         * WEB服务基础地址 (功能接口的基础地址)\n         */\n        httpApiBaseUrl: \"http://localhost:8080/api/\",\n\n        /**\n         * WEB页基础地址 (WEB界面或者网页的基础地址)\n         */\n        webPageBaseUrl: \"http://api.nicefold.com/\",\n\n\n        //────────────────────────────────────────────────────────── 当前用户信息\n\n        userInfo: {\n            id: \"\",             //当前用户id\n            token: \"\",          //当前用户身份标志\n            display: {          //<当前用户的显示信息>  \n                name: \"\",           //当前用户的昵称\n                avatar: \"\"          //当前用户的头像地址\n                //...\n            }\n        },\n\n        //────────────────────────────────────────────────────────── 方法定义\n\n        getWebApiUrl: function(apiUrl) {\n            return FEnvironment + apiUrl;\n        }\n    }\n});\n\nmodule.exports = FEnvironment;"
+  ]
+}

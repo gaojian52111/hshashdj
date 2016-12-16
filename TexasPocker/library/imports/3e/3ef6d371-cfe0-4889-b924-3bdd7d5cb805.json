@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "creat_toolBarBtn_notice",
+    "texture": "f4d90743-87e0-4907-909e-74e0629e4327",
+    "atlas": "",
+    "rect": [
+      0,
+      6,
+      61,
+      48
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      62,
+      60
+    ]
+  }
+}

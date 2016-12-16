@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,OAAO,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AACnC,IAAI,iBAAiB,CAAC;AACtB,iBAAiB,GAAG,EAAE,CAAC,KAAK,CAAC;AACzB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;;AAGpB,UAAE,CAAC,GAAG,CAAC,+BAA+B,CAAC,CAAC;KAC3C;;AAED,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,+BAA+B,CAAC,CAAC;KAC3C;AACD,qBAAiB,EAAE,2BAAS,GAAG,EAAE;AAC7B,WAAG,CAAC,eAAe,CAAC,MAAM,CAAC,MAAM,CAAC,CAAC;AACnC,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,iBAAiB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nconst Project = require(\"Project\");\nvar gjSceneController;\ngjSceneController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        //loadscene。。。\n\n        cc.log(\"gjSceneController onEnterNode\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        cc.log(\"gjSceneController onLeaveNode\");\n    },\n    onFMessage_button: function(msg) {\n        MVC.FContextManager.gotoID(\"test\");\n        msg.complete();\n    }\n\n});\nmodule.exports = gjSceneController;\n\n\n"
+  ]
+}

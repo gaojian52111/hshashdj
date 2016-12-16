@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,cAAc,CAAC;AACnB,IAAI,WAAW,CAAC;AAChB,cAAc,GAAG,EAAE,CAAC,KAAK,CAAC;AACtB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AACtB,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,wBAAwB,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AAC/D,cAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACZ,uBAAW,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AACrC,cAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,WAAW,CAAC,CAAC;SAChD,CAAC,CAAC;KAEN;;AAED,eAAW,EAAE,uBAAW;AACpB,mBAAW,CAAC,gBAAgB,CAAC,IAAI,CAAC,CAAC;KACtC;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,cAAc,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomMyTurnView;\nvar myTurnLayer;\nroomMyTurnView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n        //加载定庄动画\n        cc.log(\"myTurnLayer\");\n        cc.loader.loadRes(\"TestProfab/myTurnLayer\", function (err, prefab) {\n            cc.log(err);\n            myTurnLayer = cc.instantiate(prefab);\n            cc.director.getScene().addChild(myTurnLayer);\n        });\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        myTurnLayer.removeFromParent(true);\n    }\n\n});\nmodule.exports = roomMyTurnView;"
+  ]
+}

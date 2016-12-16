@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,qBAAqB,CAAC;AAC1B,qBAAqB,GAAG,EAAE,CAAC,KAAK,CAAC;AAC7B,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;;;;;;AAWD,eAAW,EAAE,uBAAW;AACpB,YAAI,CAAC,gBAAgB,EAAE,CAAC;KAC3B;;AAED,eAAW,EAAE,uBAAW,EAEvB;AACD,oBAAgB,EAAE,4BAAY;;;;KAI7B;AACD,0BAAsB,EAAE,gCAAS,GAAG,EAAE;AAClC,WAAG,CAAC,IAAI,CAAC,IAAI,CAAC,wBAAwB,EAAE,UAAU,EAAE,GAAG,CAAC,CAAC;AACzD,WAAG,CAAC,eAAe,CAAC,MAAM,CAAC,WAAW,CAAC,CAAC;AACxC,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,qBAAqB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomLoadingController;\nroomLoadingController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     * 1，发送消息 gameReady消息\n     *      消息名：gameReady\n     *      节点：暂定 MSG(其实也无所谓 只要有方法就可以接收得到只是之后需要确认一下)\n     * 2，等待gameOnStart消息\n     *      a，goto startGame\n     * */\n\n    onEnterNode: function() {\n        this.sendGameReadyMsg();\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    },\n    sendGameReadyMsg: function () {\n        //暂时不知道发给谁 先不发\n        // var msg = new MVC.FMessage(\"gameReady\",\"MSG\");\n        // msg.send();\n    },\n    onFMessage_gameOnStart: function(msg) {\n        MVC.FLog.data(\"room-LoadingController\", \"收到消息 {0}\", msg);\n        MVC.FContextManager.gotoID(\"startGame\");\n        msg.complete();\n    }\n\n});\nmodule.exports = roomLoadingController;\n"
+  ]
+}

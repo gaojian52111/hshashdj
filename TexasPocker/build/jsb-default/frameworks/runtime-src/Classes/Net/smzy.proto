@@ -1,0 +1,39 @@
+////////////////////////////////////////////////////////////
+//  九人桌项目通信协议基础定义；
+//  缩写说明：
+//  jrz -- jiurenzhuo(九人桌)
+//	SN -- Sequence No
+//  消息格式：
+//	[12字节 + 消息体],正式的Protocol Buffer协议字节流从12字节后开始解析；
+//	Len[4字节] + SN[4字节] + MsgID[4字节] + Message[消息实际长度]
+// 
+//	消息段说明：
+//	服务器内部通信		MSGID [1,1000]
+//	客户端与服务器通信		MSGID [1001,10000]
+////////////////////////////////////////////////////////////
+/*------------消息----------------------------------------------------------------------------------------*/
+//	消息头定义
+message Head {
+    required int32 version = 1;     //	协议版本号
+    required int32 appid = 2;       //  app编号：1 - 九人桌 2 - 四川麻将
+    required int32 msgid = 3;       //  消息编号
+    optional int32 sequence = 4;    //	消息序列号：业务层
+    optional int32 timestamp = 5;   //	时间戳
+    optional int32 retcode = 6;     //	返回代码；
+    optional string extra = 7;      //  客户端自定义字段，服务器原样返回；
+    optional string router = 8;     //  路由信息：业务根据需要定义
+    //  router : {
+    //      matchType : 0,          //  0 - 标准局， 1 - SNG , 2 - MTT
+    //      matchId : 1001,         //  一场比赛的唯一识别代码
+    //      tableId : 1001,         //  一个牌桌的唯一识别代码
+    //      handId : 1001,          //  一手牌的唯一识别代码
+    //  }
+}
+
+//	消息体定义
+message Message {
+    required Head head = 1;				//	包头
+    optional string body = 2;			//	包体，允许传递空消息，只包含包头
+}
+
+

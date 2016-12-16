@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,cAAc,CAAC;AACnB,cAAc,GAAG,EAAE,CAAC,KAAK,CAAC;AACtB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,GAAG,CAAC,gBAAgB,CAAC,CAAC;KAC5B;;AAED,eAAW,EAAE,uBAAW,EAEvB;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,cAAc,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomController;\nroomController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n\n        cc.log(\"roomController\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n\n});\nmodule.exports = roomController;\n"
+  ]
+}

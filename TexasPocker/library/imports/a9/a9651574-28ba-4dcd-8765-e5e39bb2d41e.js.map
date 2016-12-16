@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,kCAAkC,CAAC;AACvC,kCAAkC,GAAG,EAAE,CAAC,KAAK,CAAC;AAC1C,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW,EAEvB;;AAED,eAAW,EAAE,uBAAW,EAEvB;;;AAID,+BAA2B,EAAC,qCAAU,GAAG,EAAE;;;AAGvC,YAAG,GAAG,CAAC,IAAI,CAAC,IAAI,IAAI,KAAK,EAAC;AACtB,cAAE,CAAC,GAAG,CAAC,mCAAmC,CAAC,CAAC;AAC5C,eAAG,CAAC,eAAe,CAAC,MAAM,CAAC,aAAa,CAAC,CAAC;SAC7C,MACI,IAAG,GAAG,CAAC,IAAI,CAAC,IAAI,IAAI,KAAK,EAAC;AAC3B,eAAG,CAAC,eAAe,CAAC,MAAM,CAAC,sBAAsB,CAAC,CAAC;SACtD;AACD,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;CACJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,kCAAkC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar party_CreatePartyLoadingController;\nparty_CreatePartyLoadingController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    },\n    //TODO：等待服务器回复party创建成功 然后再选择 进入标准局的等待 还是进入比赛详情页\n\n\n    onFMessage_showPartyTypeReq:function (msg) {\n        //判断消息结果\n\n        if(msg.args.type == \"STD\"){\n            cc.log(\"onFMessage_showPartyTypeReq = STD\");\n            MVC.FContextManager.gotoID(\"roomWaiting\");\n        }\n        else if(msg.args.type == \"MTT\"){\n            MVC.FContextManager.gotoID(\"chackSportsPartyinfo\");\n        }\n        msg.complete();\n    }\n});\nmodule.exports = party_CreatePartyLoadingController;\n"
+  ]
+}

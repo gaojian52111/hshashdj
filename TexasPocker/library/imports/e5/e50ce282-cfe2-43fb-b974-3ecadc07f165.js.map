@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAOA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAM,KAAK,GAAG,OAAO,CAAC,WAAW,CAAC,CAAC;AACnC,IAAM,IAAI,GAAG,OAAO,CAAC,gBAAgB,CAAC,CAAC;AACvC,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;;AAE/B,IAAM,WAAW,GAAG,OAAO,CAAC,aAAa,CAAC,CAAC;AAC3C,IAAM,oBAAoB,GAAG,OAAO,CAAC,sBAAsB,CAAC,CAAC;AAC7D,IAAM,MAAM,GAAG,WAAW,CAAC,WAAW,CAAC,MAAM,CAAC;AAC9C,IAAM,GAAG,GAAG,WAAW,CAAC,WAAW,CAAC,GAAG,CAAC;AACxC,IAAM,GAAG,GAAG,WAAW,CAAC,WAAW,CAAC,GAAG,CAAC;AACxC,IAAM,MAAM,GAAG,WAAW,CAAC,MAAM,CAAC,CAAC,CAAC,CAAC;;AAGrC,MAAM,CAAC,OAAO,GAAG,EAAE,CAAC,KAAK,CAAC;;AAEtB,eAAS,oBAAoB;;;;;AAK7B,gBAAY,EAAE,wBAAY,EACzB;;;;;;;;;;;;;AAcD,wBAAoB,EAAE,8BAAS,GAAG,EAAE;AAChC,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;;;AAGD,4BAAwB,EAAE,kCAAS,GAAG,EAAE;AACpC,WAAG,CAAC,QAAQ,EAAE,CAAC;KAClB;;CAEJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "/*\n * 与九人桌游戏服务的Socket通讯\n * @Author: thor.liu \n * @Date: 2016-12-03 15:08:00 \n * @Last Modified by: thor.liu\n * @Last Modified time: 2016-12-15 15:50:07\n */\nconst MVC = require(\"FWS_MVC\");\nconst MODEL = require(\"FWS_MODEL\");\nconst DATA = require(\"FWS_MODEL_DATA\");\nconst MSG = require(\"FWS_MSG\");\n\nconst FSocketPack = require(\"FSocketPack\");\nconst FSocketModelAbstract = require(\"FSocketModelAbstract\");\nconst NOTIFY = FSocketPack.FHeaderMark.Notify;\nconst REQ = FSocketPack.FHeaderMark.Req;\nconst ACK = FSocketPack.FHeaderMark.Ack;\nconst MSGIDS = FSocketPack.MsgIDs[0];\n\n\nmodule.exports = cc.Class({\n    // name: \"P9SocketGSModel\",\n    extends: FSocketModelAbstract,\n    // ctor: function() {},\n\n    //────────────────────────────────────────────────────────── 网络通讯\n\n    initHandlers: function () {\n    }, \n\n    //────────────────────────────────────────────────────────── 游戏事件\n    \n\n    //TODO: start\n    //TODO: handcards\n    //TODO: publiccards\n    //TODO: pot\n    //TODO: action\n    //TODO: timebank\n    //TODO: safe...\n\n    //────────────────────────────────────────────────────────── 就绪\n    onFMessage_gameReady: function(msg) {\n        msg.complete();\n    },\n\n    //────────────────────────────────────────────────────────── 玩家动作\n    onFMessage_gameActionAck: function(msg) {\n        msg.complete();\n    }\n\n});"
+  ]
+}

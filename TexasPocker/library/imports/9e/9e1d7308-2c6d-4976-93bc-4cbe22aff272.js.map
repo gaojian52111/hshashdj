@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,0BAA0B,CAAC;AAC/B,0BAA0B,GAAG,EAAE,CAAC,KAAK,CAAC;AAClC,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,wCAAwC,CAAC,CAAC;KAEpD;;AAED,eAAW,EAAE,uBAAW,EAEvB;;AAED,iBAAa,EAAE,uBAAS,GAAG,EAAC;;;;;;;KAO3B;;AAED,oBAAgB,EAAE,0BAAS,GAAG,EAAC,EAE9B;;AAED,iBAAa,EAAE,uBAAS,GAAG,EAAC,EAE3B;;AAED,qBAAiB,EAAE,2BAAS,GAAG,EAAC,EAE/B;;CAMJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,0BAA0B,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar Room_roomWaitingController;\nRoom_roomWaitingController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n        cc.log(\"onEnterNode Room_roomWaitingController\");\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    },\n    //界面显示\n    onMessageshow: function(msg){\n        //显示房间名\n        //显示房间号\n        //显示人数\n        //显示进局人数\n        //显示牌局时间\n        //按钮状态\n    },\n    //聊天\n    onMessagejoinBtn: function(msg){\n\n    },\n    //入局玩家头像\n    onMessagehead: function(msg){\n\n    },\n    //超时警告\n    onMessageovertime: function(msg){\n\n    }\n    \n\n\n\n\n});\nmodule.exports = Room_roomWaitingController;"
+  ]
+}

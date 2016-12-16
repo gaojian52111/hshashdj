@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;;AAE/B,EAAE,CAAC,KAAK,CAAC;AACL,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,UAAM,EAAE,kBAAY;AAChB,YAAI,CAAC,OAAO,EAAE,CAAC;KAClB;AACD,aAAS,EAAC,qBAAY;AAClB,YAAI,CAAC,UAAU,EAAE,CAAC;KACrB;AACD,eAAW,EAAC,uBAAY;;AAEpB,YAAI,IAAI,GAAG,IAAI,GAAG,CAAC,QAAQ,CAAC,uBAAuB,EAAE,KAAK,CAAC,CAAC;AAC5D,YAAI,CAAC,IAAI,CAAC,IAAI,GAAG,KAAK,CAAC;AACvB,YAAI,CAAC,IAAI,EAAE,CAAC;;AAEZ,cAAM,CAAC,QAAQ,GAAG,KAAK,CAAC;AACxB,WAAG,CAAC,eAAe,CAAC,MAAM,CAAC,oBAAoB,CAAC,CAAC;KAEpD;AACD,eAAW,EAAC,uBAAY;;;AAGpB,YAAI,IAAI,GAAG,IAAI,GAAG,CAAC,QAAQ,CAAC,uBAAuB,EAAE,KAAK,CAAC,CAAC;AAC5D,YAAI,CAAC,IAAI,CAAC,IAAI,GAAG,KAAK,CAAC;AACvB,YAAI,CAAC,IAAI,EAAE,CAAC;AACZ,cAAM,CAAC,QAAQ,GAAG,KAAK,CAAC;;;AAGxB,WAAG,CAAC,eAAe,CAAC,MAAM,CAAC,oBAAoB,CAAC,CAAC;KAGpD;;CAIJ,CAAC,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\n\ncc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    // use this for initialization\n    onLoad: function () {\n        this.connect();\n    },\n    onDestory:function () {\n        this.disconnect();\n    },\n    onCreateStd:function () {\n        //假设设置好了数据等东西  将这些东西发给网络层\n        var msg1 = new MVC.FMessage(\"CreateStdPartyInfoAck\", \"Net\");\n        msg1.args.Type = \"STD\";\n        msg1.send();\n        //直接跳到loading\n        window.GameType = \"STD\";\n        MVC.FContextManager.gotoID(\"createPartyLoading\");\n\n    },\n    onCreateMTT:function () {\n        //假设设置好了数据等东西  将这些东西发给网络层\n\n        var msg1 = new MVC.FMessage(\"CreateStdPartyInfoAck\", \"Net\");\n        msg1.args.Type = \"MTT\";\n        msg1.send();\n        window.GameType = \"MTT\";\n\n        //直接跳到loading\n        MVC.FContextManager.gotoID(\"createPartyLoading\");\n\n\n    },\n\n\n\n});\n"
+  ]
+}

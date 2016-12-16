@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,4BAA4B,CAAC;AACjC,IAAI,4BAA4B,CAAC;AACjC,4BAA4B,GAAG,EAAE,CAAC,KAAK,CAAC;AACpC,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW;AACpB,UAAE,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC;AACtB,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,yCAAyC,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AAChF,cAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACZ,wCAA4B,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AACtD,cAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,4BAA4B,CAAC,CAAC;SACjE,CAAC,CAAC;KAEN;;AAED,eAAW,EAAE,uBAAW;AACpB,oCAA4B,CAAC,gBAAgB,CAAC,IAAI,CAAC,CAAC;KACvD;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,4BAA4B,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar party_CreatePartyLoadingView;\nvar partyCreatePartyLoadingLayer;\nparty_CreatePartyLoadingView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n        cc.log(\"myTurnLayer\");\n        cc.loader.loadRes(\"TestProfab/partyCreatePartyLoadingLayer\", function (err, prefab) {\n            cc.log(err);\n            partyCreatePartyLoadingLayer = cc.instantiate(prefab);\n            cc.director.getScene().addChild(partyCreatePartyLoadingLayer);\n        });\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        partyCreatePartyLoadingLayer.removeFromParent(true);\n    }\n\n});\nmodule.exports = party_CreatePartyLoadingView;"
+  ]
+}

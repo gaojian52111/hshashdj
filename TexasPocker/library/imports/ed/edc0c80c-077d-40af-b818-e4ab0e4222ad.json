@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "insurance Delay",
+    "texture": "3c94648b-3a9b-4d49-9746-5691dea1e508",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      154,
+      169
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      156,
+      171
+    ]
+  }
+}

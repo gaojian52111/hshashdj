@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,WAAW,CAAC;AAChB,IAAI,eAAe,CAAC;AACpB,WAAW,GAAG,EAAE,CAAC,KAAK,CAAC;AACnB,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;AAGD,eAAW,EAAE,uBAAW;;AAEpB,UAAE,CAAC,QAAQ,CAAC,SAAS,CAAC,SAAS,CAAC,CAAC;;;;AAIjC,UAAE,CAAC,MAAM,CAAC,OAAO,CAAC,4BAA4B,EAAE,UAAU,GAAG,EAAE,MAAM,EAAE;AACnE,cAAE,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;AACZ,2BAAe,GAAG,EAAE,CAAC,WAAW,CAAC,MAAM,CAAC,CAAC;AACzC,cAAE,CAAC,QAAQ,CAAC,QAAQ,EAAE,CAAC,QAAQ,CAAC,eAAe,CAAC,CAAC;SACpD,CAAC,CAAC;;KAEN;;AAED,eAAW,EAAE,uBAAW,EAEvB;;;;;CAKJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,WAAW,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar gjSceneView;\nvar playerHeadLayer;\ngjSceneView = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    onEnterNode: function() {\n        //加载结算场景\n        cc.director.loadScene(\"gjScene\");\n        //loadscene。。。\n\n                //loadscene。。。\n        cc.loader.loadRes(\"TestProfab/playerHeadLayer\", function (err, prefab) {\n            cc.log(err);\n            playerHeadLayer = cc.instantiate(prefab);\n            cc.director.getScene().addChild(playerHeadLayer);\n        });\n        // cc.director.loadScene(\"roomScene\");\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n\n    }\n        // called every frame, uncomment this function to activate update callback\n    // update: function (dt) {\n\n    // },\n});\nmodule.exports = gjSceneView;\n"
+  ]
+}

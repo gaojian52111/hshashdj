@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "unknown"
+  ],
+  "names": [],
+  "mappings": "AAAA,IAAM,GAAG,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC;AAC/B,IAAI,sBAAsB,CAAC;AAC3B,IAAI,kBAAkB,CAAC;AACvB,sBAAsB,GAAG,EAAE,CAAC,KAAK,CAAC;AAC9B,eAAS,GAAG,CAAC,kBAAkB;;AAE/B,cAAU,EAAE,EAEX;;;;;;AAMD,eAAW,EAAE,uBAAW,EAGvB;;AAED,eAAW,EAAE,uBAAW;AACpB,0BAAkB,CAAC,gBAAgB,CAAC,IAAI,CAAC,CAAC;KAC7C;;CAEJ,CAAC,CAAC;AACH,MAAM,CAAC,OAAO,GAAG,sBAAsB,CAAC",
+  "file": "unknown",
+  "sourcesContent": [
+    "const MVC = require(\"FWS_MVC\");\nvar roomHandSignController;\nvar FaShouPaiTestLayer;\nroomHandSignController = cc.Class({\n    extends: MVC.FMessageConnection,\n\n    properties: {\n\n    },\n\n    //TODO:当切换到此节点的时候会运行这个方法\n    /*\n     *\n     * */\n    onEnterNode: function() {\n\n\n    },\n    //TODO:当离开此节点的时候会运行这个方法\n    onLeaveNode: function() {\n        FaShouPaiTestLayer.removeFromParent(true);\n    }\n\n});\nmodule.exports = roomHandSignController;"
+  ]
+}
